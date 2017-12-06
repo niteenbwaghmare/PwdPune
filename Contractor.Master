@@ -1,0 +1,439 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Contractor.master.cs" Inherits="PWdEEBudget.Contractor" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+
+<!DOCTYPE html>
+
+<html>
+<%--xmlns="http://www.w3.org/1999/xhtml"--%>
+<head id="Head1" runat="server" aria-atomic="False">
+    <title>EEPwdEastPuneBudget</title>
+
+    <link rel="shortcut icon" href="Images/SBIcon1.ico" />
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=9" />
+    <meta http-equiv="x-ua-compatible" content="IE=8" />
+    <meta http-equiv="x-ua-compatible" content="IE=7" />
+    <meta http-equiv="x-ua-compatible" content="IE=5" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+
+    <meta name="author" content="" />
+    <script type="text/javascript" src="js/JScript.js"></script>
+    <style>
+        .searching {
+            width: 150PX;
+            margin-left: 239PX;
+            Height: 26px;
+            box-sizing: border-box;
+            /*border: 4px solid #ccc;*/
+            border-radius: 32px;
+            font-size: 13px;
+            background-color: white;
+            background-image: url(img/searchicon.png);
+            background-position: 4px 0px;
+            background-repeat: no-repeat;
+            padding: 10px 11px 10px 34px;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+        }
+
+
+        #footer {
+            clear: both;
+            position: relative;
+            z-index: 10;
+            height: 3em;
+            margin-top: -3em;
+        }
+    </style>
+
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- MetisMenu CSS -->
+    <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/EE.css" rel="stylesheet" />
+
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <%--<script src="js/css3clock.js"></script>--%>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet" />
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script type="text/javascript" src="Scripts/ScrollTop.js"></script>
+    <style>
+        @media only screen and (min-width:768px) {
+            /*desktop*/
+            .col-3 {
+                width: 400%;
+            }
+
+            .user {
+                left: auto;
+                right: 0px;
+            }
+        }
+
+        @media only screen and (max-width:500px) {
+            [class*="col-"] {
+                width: 100%;
+            }
+
+            .user {
+                right: auto;
+                left: 0px;
+            }
+        }
+    </style>
+    <style type='text/css'>
+        .dvContent {
+            Width: 100px;
+            height: 100%;
+            /*background-color: gray;*/
+            overflow-y: auto;
+            /*position: fixed;*/
+            left: 0;
+        }
+
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+            border-radius: 100px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            border-radius: 100px;
+            -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.5);
+        }
+    </style>
+    <style>
+        ul li {
+        }
+
+        li {
+        }
+
+            li:last-child {
+            }
+
+            li a {
+                /*text-align: center;
+                  padding: 14px 16px;*/
+            }
+
+                li a:hover {
+                    color: blue !important;
+                }
+
+        .active {
+        }
+
+        .navbar-default .navbar-nav > li > a {
+            color: #9f2917 !important;
+        }
+
+            .navbar-default .navbar-nav > li > a:hover {
+                display: block !important;
+                /*background-color: gray !important;*/
+                background: linear-gradient(#3b5998,#00C6D7) !important;
+                color: white !important;
+            }
+    </style>
+    <style type="text/css">
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: black;
+            z-index: 99;
+            opacity: 0.8;
+            filter: alpha(opacity=80);
+            -moz-opacity: 0.8;
+            min-height: 100%;
+            width: 100%;
+        }
+
+        .loading {
+            font-family: Arial;
+            font-size: 10pt;
+            border: 5px solid #67CFF5;
+            width: 200px;
+            height: 100px;
+            display: none;
+            position: fixed;
+            background-color: White;
+            z-index: 999;
+        }
+
+        .ddlList {
+            border-radius: 100px;
+            border-top-left-radius: 100px;
+            border-top-right-radius: 100px;
+            border-bottom-right-radius: 100px;
+            border-bottom-left-radius: 100px;
+            background-color: #c2c2c2;
+            width: 137px !important;
+            height: 30px;
+            cursor: pointer;
+            float: right !important;
+            font-weight: 700;
+            padding: 6px;
+            padding-left: 13px !important;
+        }
+    </style>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <!--SideBarHide -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <link href="css/Notification.css" type="text/css" rel="stylesheet" />
+    <!--End oF Sidebar Hide -->
+
+
+
+    <style type="text/css">
+        .txtsearch {
+        }
+    </style>
+    <style type="text/css">
+        .menu ul {
+            border-bottom: 1px solid gray;
+        }
+
+            .menu ul li {
+                border: 1px solid white;
+                background-color: rgba(255,255,255,.15);
+                text-decoration: none;
+                padding: 3px;
+                margin: 3px;
+            }
+
+                .menu ul li a {
+                    color: #337ab7;
+                }
+
+                    .menu ul li a:hover {
+                        font-weight: bold;
+                    }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="css/Blink.css" rel="stylesheet" />
+</head>
+
+<body style="background-color: white" onload="load()">
+
+
+    <div>
+        <form id="form1" runat="server" style="margin-left: -3%">
+            <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+            <div id="wrapper">
+
+
+                <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0; background: linear-gradient(#ccc,#fae8bd); border-color: #e7e7e7;">
+                    <h1 style="color: #e6120e; text-shadow: 2px 2px 4px rgb(166, 157, 157); text-align: center; font-size: 19px;">सार्वजनिक बांधकाम पूर्व विभाग पुणे</h1>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <div align="center">
+                            <ul class="nav navbar-nav level1 static" style="margin-left: 10%">
+                                <li class="static" style="position: relative"><a href="ThekedarPanel.aspx" class="adminPage">Home</a></li>
+                                <li class="static" style="position: relative"><a href="ContractorLogin_Profile.aspx" class="ProfilePage">Profile</a></li>
+                                <li class="static" style="position: relative"><a href="ContractorMasterAllReport.aspx" class="MasterAllPage">Report</a></li>
+                                <li class="static" style="position: relative"><a href="ContractorUpdateReport.aspx" class="updatePage">Update</a></li>
+                                <li class="static" style="position: relative"><a href="UploadImage.aspx?PrevMPage=Contractor" class="uploadImagePage">Upload Image</a></li>
+                                <li class="static" style="position: relative"><a href="Help.aspx?PrevMPage=Contractor" class="HelpPage">Help</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="top_nav">
+                        <div class="nav_menu">
+                            <nav>
+
+                                <ul class="nav navbar-nav navbar-right" style="margin-right: 0px; margin-left: 150px;">
+                                    <li class="">
+                                        <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                            <img class="img-circle" id="imgUser" runat="server" alt="" style="height: 25px; width: 30px"><asp:Label ID="lblUserName" runat="server" Style="color: black"></asp:Label>
+                                        </a>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                            <li><a href="ContractorLogin_Profile.aspx">Profile</a></li>                              
+                                            <li><a href="Help.aspx?PrevMPage=Contractor">Help</a></li>
+                                           <%-- <li><a href="ContractorLoginChangePassword.aspx">Change Password</a></li>--%>
+                                             <li><a href="ChangePassword.aspx?PrevMPage=Contractor">Change Password</a></li>
+
+                                            
+                                            <%--<li><a href="Login.aspx">Log Out</a></li>--%>
+                                            <li>
+                                                <asp:Button ID="logout" runat="server" Width="100%" Style="display: block; font-size: 15px; text-align: left; padding: 3px 20px; clear: both; font-weight: 400; line-height: 1.42857143; color: #333; white-space: nowrap;" BorderStyle="None" OnClick="logout_OnClick" BackColor="White" Text="Logout" ForeColor="Black" /></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </nav>
+                        </div>
+                    </div>
+                    </div>                   
+
+
+                    <!-- /.navbar-header -->
+                    
+                    <!-- /.navbar-static-side -->
+                </nav>
+
+            </div>
+
+            <div class="container-fluid" style="margin-left: 40px">
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+
+        </form>
+    </div>
+
+
+    <script src="../dist/js/sb-admin-2.js"></script>
+    <style type="text/css">
+        input[type="submit"], input[type="image"] {
+            border-radius: 5px;
+            background: linear-gradient(gray,white);
+            font-weight: 700;
+            color: black;
+        }
+
+        input[type="text"] {
+            color: black;
+            font-weight: bold;
+        }
+
+        table > tr > td, th {
+            color: red;
+            font-weight: bold;
+        }
+
+        table:first-child tr > th {
+            background-color: lightgray;
+            color: rgb(117, 15, 15);
+            font-size: 20px;
+        }
+
+        @media (max-width:667px) {
+            .toggler {
+                display: none;
+            }
+
+            .sidebar-left > .toggler {
+                background-color: green !important;
+            }
+            /*.col-xs-12 col-sm-12 col-md-12 col-lg-12 {
+                display:none;
+            }*/
+            #test {
+                /*display:none;*/
+            }
+        }
+    </style>
+    <link href="css/AutoCompletExtender.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="css/BootSideMenu.css" rel="stylesheet" />
+
+    <script type="text/javascript">
+        function pageLoad() {
+
+            $('.HideColumn td:nth-child(' + 1 + '),.HideColumn th:nth-child(' + 1 + ')').toggle();
+            $(".highcharts-credits").hide();
+
+            $(document).ready(function f1() {
+                $('#test').BootSideMenu({
+                    side: "left",
+                    pushBody: false,
+                    remember: false
+                });
+                //bindEvents();
+            });
+
+            $("input[type=checkbox]").click(function () {
+
+                $('.HideColumn td:nth-child(' + 1 + '),.HideColumn th:nth-child(' + 1 + ')').toggle();
+
+            });
+        }
+
+    </script>
+
+
+
+
+
+    <%--  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>--%>
+
+    <script type="text/javascript" src="Scripts/searchabalddlonlin.js"></script>
+    <script src="Scripts/searchabledropdownlist.js" type="text/javascript"></script>
+    <script src="js/BootSideMenu.js"></script>
+
+
+
+    <script type="text/javascript">
+        function ShowProgress() {
+            setTimeout(function () {
+                var modal = $('<div />');
+                modal.addClass("modal");
+                $('body').append(modal);
+                var loading = $(".loading");
+                loading.show();
+                var top = Math.max($(window).height() / 2 - loading[0].offsetHeight / 2, 0);
+                var left = Math.max($(window).width() / 2 - loading[0].offsetWidth / 2, 0);
+                loading.css({ top: top, left: left });
+            }, 200);
+        }
+        $('form').live("submit", function () {
+            ShowProgress();
+        });
+
+    </script>
+    <%-- <script type="text/javascript">
+        var flag = false;
+
+        $(".ddlList").live("click", function () {
+            //if (flag) {
+            $(".ddlListHide").toggle("slow", "swing");
+
+        });
+
+    </script>--%>
+    <script type="text/javascript">
+        $(".fileUpload").click(function () {
+
+            $(".fa-folder").attr("disabled", false);
+        });
+    </script>
+    <br />
+</body>
+</html>

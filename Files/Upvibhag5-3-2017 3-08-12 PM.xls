@@ -1,0 +1,39 @@
+<div>
+	<table class="Grid1" cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_gvParentGrid_gvChildGrid_15" style="background-color:Transparent;border-color:#DF5015;border-style:Double;font-family:Times New Roman;width:98%;border-collapse:collapse;">
+		<tr style="color:White;background-color:#DF5015;font-weight:bold;">
+			<th scope="col">Head Name </th><th scope="col">Completed</th><th scope="col">Incomplete</th><th scope="col">Inprogress</th><th scope="col">Tender Stage</th><th scope="col">Estimated Stage</th><th scope="col">Not Started</th><th scope="col">No Status</th><th scope="col">No.of.works</th><th scope="col">Estimated Cost 2016-2017</th><th scope="col">T.S Cost 2016-2017</th><th scope="col">Budget Provision 2016-2017</th><th scope="col">Expenditure 2016-2017</th>
+		</tr><tr align="center" style="background-color:#E1E1E1;">
+			<td>Building</td><td>14</td><td>0</td><td>18</td><td>0</td><td>3</td><td>0</td><td>0</td><td>35</td><td>55411.04</td><td>34402.45</td><td>9293.71</td><td>29970.30</td>
+		</tr><tr align="center" style="background-color:White;">
+			<td>Nabard</td><td>60</td><td>4</td><td>2</td><td>0</td><td>0</td><td>0</td><td>2</td><td>68</td><td>13472.45</td><td>12167.41</td><td>3291.36</td><td>9816.04</td>
+		</tr><tr align="center" style="background-color:#E1E1E1;">
+			<td>2515</td><td>4</td><td>0</td><td>91</td><td>2</td><td>0</td><td>1</td><td>2</td><td>100</td><td>918.00</td><td>911.26</td><td>0.00</td><td>0.00</td>
+		</tr><tr align="center" style="background-color:White;">
+			<td>SH &amp; DOR</td><td>218</td><td>0</td><td>71</td><td>0</td><td>0</td><td>8</td><td>0</td><td>297</td><td>27102.28</td><td>24593.59</td><td>4330.10</td><td>14573.03</td>
+		</tr><tr align="center" style="background-color:#E1E1E1;">
+			<td>Annuity</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>1</td><td>3</td><td>134232.00</td><td>0.00</td><td>69510.23</td><td>0.00</td>
+		</tr><tr align="center" style="background-color:White;">
+			<td>CRF</td><td>0</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>4500.00</td><td>4276.43</td><td>63.33</td><td>6.42</td>
+		</tr><tr align="center" style="background-color:#E1E1E1;">
+			<td>MLA</td><td>75</td><td>0</td><td>102</td><td>8</td><td>4</td><td>1</td><td>0</td><td>190</td><td>1299.96</td><td>5.00</td><td>120.27</td><td>598.16</td>
+		</tr><tr align="center" style="background-color:White;">
+			<td>MP</td><td>53</td><td>0</td><td>33</td><td>0</td><td>0</td><td>10</td><td>0</td><td>96</td><td>660.00</td><td>569.28</td><td>0.00</td><td>153.93</td>
+		</tr><tr align="center" style="background-color:#E1E1E1;">
+			<td>DPDC</td><td>86</td><td>0</td><td>4</td><td>0</td><td>0</td><td>2</td><td>1</td><td>93</td><td>0.00</td><td>0.00</td><td>539.32</td><td>1779.39</td>
+		</tr><tr align="center" style="background-color:White;">
+			<td>Gat_A</td><td>242</td><td>0</td><td>53</td><td>0</td><td>0</td><td>0</td><td>382</td><td>677</td><td>314.46</td><td>2653.74</td><td>-1.00</td><td>0.00</td>
+		</tr><tr align="center" style="background-color:#E1E1E1;">
+			<td>Gat_BCF</td><td>21</td><td>0</td><td>7</td><td>0</td><td>0</td><td>34</td><td>22</td><td>84</td><td>3199.55</td><td>2897.21</td><td>0.00</td><td>0.00</td>
+		</tr><tr align="center" style="background-color:White;">
+			<td>Deposit</td><td>76</td><td>5</td><td>80</td><td>396</td><td>0</td><td>5</td><td>62</td><td>628</td><td>278972.94</td><td>13684.33</td><td>0.00</td><td>693.55</td>
+		</tr><tr align="center" style="background-color:#E1E1E1;">
+			<td>Gat_D</td><td>4</td><td>0</td><td>4</td><td>0</td><td>2</td><td>0</td><td>0</td><td>10</td><td>15.50</td><td>14.83</td><td>0.00</td><td>0.00</td>
+		</tr><tr align="center" style="background-color:White;">
+			<td>2216</td><td>95</td><td>0</td><td>34</td><td>0</td><td>0</td><td>0</td><td>0</td><td>129</td><td>467.84</td><td>400.59</td><td>0.00</td><td>0.00</td>
+		</tr><tr align="center" style="background-color:#E1E1E1;">
+			<td>2059</td><td>59</td><td>0</td><td>50</td><td>2</td><td>3</td><td>0</td><td>1</td><td>115</td><td>497.76</td><td>462.89</td><td>0.00</td><td>0.00</td>
+		</tr><tr align="center">
+			<td>Total</td><td>1007</td><td>9</td><td>551</td><td>408</td><td>12</td><td>63</td><td>473</td><td>2527</td><td>521561.54</td><td>97501.90</td><td>87147.32</td><td>57590.82</td>
+		</tr>
+	</table>
+</div>

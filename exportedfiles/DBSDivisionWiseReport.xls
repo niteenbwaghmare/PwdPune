@@ -1,0 +1,55 @@
+<div>
+	<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridView1" style="font-weight:bold;border-collapse:collapse;border-collapse:separate">
+		<tr align="center">
+			<th align="left" scope="col" style="width:5%;">अ.क्र</th><th align="center" scope="col">उपविभाग</th><th scope="col">कामाची संख्या</th>
+		</tr><tr align="center">
+			<td>
+                                            1
+                                        </td><td>सा.बां.उपविभाग,  प्रकल्प (खा), पुणे</td><td>128</td>
+		</tr><tr align="center">
+			<td>
+                                            2
+                                        </td><td>सा.बां.उपविभाग, बारामती</td><td>635</td>
+		</tr><tr align="center">
+			<td>
+                                            3
+                                        </td><td>सा.बां.(वैद्यकीय) उपविभाग, बारामती </td><td>14</td>
+		</tr><tr align="center">
+			<td>
+                                            4
+                                        </td><td>सा.बां.उपविभाग, इंदापूर</td><td>308</td>
+		</tr><tr align="center">
+			<td>
+                                            5
+                                        </td><td>सा.बां.उपविभाग, भिगवण</td><td>134</td>
+		</tr><tr align="center">
+			<td>
+                                            6
+                                        </td><td>सा.बां.उपविभाग, शिरुर</td><td>351</td>
+		</tr><tr align="center">
+			<td>
+                                            7
+                                        </td><td>सा.बां.उपविभाग,दौंड</td><td>491</td>
+		</tr><tr align="center">
+			<td>
+                                            8
+                                        </td><td>सा.बां.उपविभाग,दौंड ( ईमारती )</td><td>469</td>
+		</tr><tr align="center">
+			<td>
+                                            9
+                                        </td><td>सा.बां.उपविभाग, क्र. 4, पुणे</td><td>12</td>
+		</tr><tr align="center">
+			<td>
+                                            10
+                                        </td><td>सा.बां.उपविभाग, शिरुर,  आंबेगाव</td><td>20</td>
+		</tr><tr align="center">
+			<td>
+                                            11
+                                        </td><td>विभागीय कार्यालय</td><td>1</td>
+		</tr><tr align="center">
+			<td>
+                                            12
+                                        </td><td>एकुण</td><td>2563</td>
+		</tr>
+	</table>
+</div>

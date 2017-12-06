@@ -1,0 +1,49 @@
+﻿.Grid1 {
+    background-color: #ffc0cb  !important;
+    margin: 5px 0 10px 0 !important;
+    border: solid 1px #000 !important;
+    border-collapse: collapse !important;
+    font-family: Calibri !important;
+    color: #000!important;
+}
+    .Grid1 td {
+        padding: 2px !important;
+        border: solid 1px #000 !important;
+    }
+    .Grid1:first-child tr > th  {
+        width:150px !important;
+
+
+    }
+    .Grid1 th {
+        padding: 4px 2px !important;
+        color: #000 !important;
+        background: #df5015 url(Images/grid-header.png) repeat-x top !important;
+        border-left: solid 1px #000 !important;
+        font-size: 0.9em !important;
+    }
+    .Grid1 .alt {
+        background: #c1c1c1 url(Images/grid-alt.png) repeat-x top !important;
+    }
+    .Grid1 .pgr {
+        background: #363670 url(Images/grid-pgr.png) repeat-x top !important;
+    }
+    .Grid1 .pgr table {
+        margin: 3px 0 !important;
+    }
+    .Grid1 .pgr td {
+        border-width: 0 !important;
+        padding: 0 6px !important;
+        border-left: solid 1px #666 !important;
+        font-weight: bold !important;
+        color: #000 !important;
+        line-height: 12px !important;
+    }
+    .Grid1 .pgr a {
+        color: Gray !important;
+        text-decoration: none !important;
+    }
+    .Grid1 .pgr a:hover {
+        color: #000 !important;
+        text-decoration: none !important;
+    }

@@ -1,0 +1,522 @@
+<div>
+	<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridView1" style="width:100%;border-collapse:collapse;">
+		<tr style="border-color:#908D8D;border-style:Solid;">
+			<th align="left" scope="col" style="width:5%;">Sr.No</th><th scope="col">No of works</th><th scope="col">
+                                            <span id="ContentPlaceHolder1_GridView1_lbllekha">Upvibhag</span>
+                                        </th><th scope="col">
+                                            AA cost
+                                        </th><th scope="col">
+                                            <span id="ContentPlaceHolder1_GridView1_lblmar">Expend Up to March2016-20</span>
+                                        </th><th scope="col">
+                                            Balance Cost
+                                        </th><th scope="col">
+                                            <span id="ContentPlaceHolder1_GridView1_lblProvision3">Budget Provision in 3/2016-20</span>
+                                        </th><th scope="col">
+                                            Budget Relessed
+                                        </th><th scope="col">
+                                            <span id="ContentPlaceHolder1_GridView1_lblExpenditure9">Expenditure Up to 9/2016-20</span>
+                                        </th><th scope="col">
+                                            <span id="ContentPlaceHolder1_GridView1_lblDemand">Demand</span>
+                                        </th><th scope="col">
+                                            C
+                                        </th><th scope="col">
+                                            P
+                                        </th><th scope="col">
+                                            NS
+                                        </th><th scope="col">
+                                            Remarks
+                                        </th><th scope="col">
+                                            Apr
+                                        </th><th scope="col">
+                                            May
+                                        </th><th scope="col">
+                                            Jun
+                                        </th><th scope="col">
+                                            Jul
+                                        </th><th scope="col">
+                                            Aug
+                                        </th><th scope="col">
+                                            Sep
+                                        </th><th scope="col">
+                                            Oct
+                                        </th><th scope="col">
+                                            Nov
+                                        </th><th scope="col">
+                                            Dec
+                                        </th><th scope="col">
+                                            Jan
+                                        </th><th scope="col">
+                                            Feb
+                                        </th><th scope="col">
+                                            Mar
+                                        </th><th scope="col">
+                                            Total
+                                        </th>
+		</tr><tr valign="top">
+			<td align="center">
+                                            1
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNoWorks_0">2</span>
+                                        </td><td align="left">
+                                            
+                                            <span id="ContentPlaceHolder1_GridView1_lbllupvibhag_0">सा.बां.(वैद्यकीय) उपविभाग, बारामती </span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblAACost_0">12.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblExpMar_0">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblBalCost_0">12.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMarProvi_0">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblRelessed_0">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblExp9_0">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblDemnd_0">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblC_0">2</span>
+                                           
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblP_0">0</span>
+                                           
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNS_0">0</span>
+                                           
+
+                                        </td><td align="left">&nbsp;</td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblApr_0">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMay_0">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJun_0">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJul_0">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblAug_0">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblSep_0">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblOct_0">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNov_0">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblDec_0">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJan_0">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblFeb_0">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMar1_0">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotal_0">0.00</span>
+                                        </td>
+		</tr><tr valign="top">
+			<td align="center">
+                                            2
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNoWorks_1">3</span>
+                                        </td><td align="left">
+                                            
+                                            <span id="ContentPlaceHolder1_GridView1_lbllupvibhag_1">सा.बां.उपविभाग,  प्रकल्प (खा), पुणे</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblAACost_1">12.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblExpMar_1">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblBalCost_1">12.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMarProvi_1">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblRelessed_1">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblExp9_1">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblDemnd_1">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblC_1">2</span>
+                                           
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblP_1">1</span>
+                                           
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNS_1">0</span>
+                                           
+
+                                        </td><td align="left">&nbsp;</td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblApr_1">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMay_1">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJun_1">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJul_1">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblAug_1">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblSep_1">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblOct_1">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNov_1">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblDec_1">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJan_1">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblFeb_1">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMar1_1">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotal_1">0.00</span>
+                                        </td>
+		</tr><tr valign="top">
+			<td align="center">
+                                            3
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNoWorks_2">1</span>
+                                        </td><td align="left">
+                                            
+                                            <span id="ContentPlaceHolder1_GridView1_lbllupvibhag_2">सा.बां.उपविभाग, इंदापूर</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblAACost_2">6.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblExpMar_2">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblBalCost_2">6.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMarProvi_2">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblRelessed_2">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblExp9_2">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblDemnd_2">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblC_2">0</span>
+                                           
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblP_2">1</span>
+                                           
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNS_2">0</span>
+                                           
+
+                                        </td><td align="left">&nbsp;</td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblApr_2">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMay_2">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJun_2">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJul_2">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblAug_2">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblSep_2">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblOct_2">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNov_2">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblDec_2">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJan_2">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblFeb_2">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMar1_2">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotal_2">0.00</span>
+                                        </td>
+		</tr><tr valign="top">
+			<td align="center">
+                                            4
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNoWorks_3">3</span>
+                                        </td><td align="left">
+                                            
+                                            <span id="ContentPlaceHolder1_GridView1_lbllupvibhag_3">सा.बां.उपविभाग, बारामती</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblAACost_3">18.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblExpMar_3">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblBalCost_3">18.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMarProvi_3">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblRelessed_3">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblExp9_3">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblDemnd_3">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblC_3">3</span>
+                                           
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblP_3">0</span>
+                                           
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNS_3">0</span>
+                                           
+
+                                        </td><td align="left">&nbsp;</td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblApr_3">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMay_3">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJun_3">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJul_3">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblAug_3">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblSep_3">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblOct_3">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNov_3">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblDec_3">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJan_3">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblFeb_3">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMar1_3">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotal_3">0.00</span>
+                                        </td>
+		</tr><tr valign="top">
+			<td align="center">
+                                            5
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNoWorks_4">2</span>
+                                        </td><td align="left">
+                                            
+                                            <span id="ContentPlaceHolder1_GridView1_lbllupvibhag_4">सा.बां.उपविभाग, भिगवण</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblAACost_4">12.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblExpMar_4">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblBalCost_4">12.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMarProvi_4">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblRelessed_4">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblExp9_4">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblDemnd_4">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblC_4">2</span>
+                                           
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblP_4">0</span>
+                                           
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNS_4">0</span>
+                                           
+
+                                        </td><td align="left">&nbsp;</td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblApr_4">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMay_4">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJun_4">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJul_4">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblAug_4">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblSep_4">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblOct_4">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNov_4">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblDec_4">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJan_4">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblFeb_4">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMar1_4">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotal_4">0.00</span>
+                                        </td>
+		</tr><tr valign="top">
+			<td align="center">
+                                            6
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNoWorks_5">4</span>
+                                        </td><td align="left">
+                                            
+                                            <span id="ContentPlaceHolder1_GridView1_lbllupvibhag_5">सा.बां.उपविभाग, शिरुर</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblAACost_5">18.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblExpMar_5">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblBalCost_5">18.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMarProvi_5">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblRelessed_5">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblExp9_5">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblDemnd_5">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblC_5">4</span>
+                                           
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblP_5">0</span>
+                                           
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNS_5">0</span>
+                                           
+
+                                        </td><td align="left">&nbsp;</td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblApr_5">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMay_5">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJun_5">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJul_5">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblAug_5">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblSep_5">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblOct_5">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNov_5">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblDec_5">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJan_5">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblFeb_5">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMar1_5">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotal_5">0.00</span>
+                                        </td>
+		</tr><tr valign="top">
+			<td align="center">
+                                            7
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNoWorks_6">3</span>
+                                        </td><td align="left">
+                                            
+                                            <span id="ContentPlaceHolder1_GridView1_lbllupvibhag_6">सा.बां.उपविभाग,दौंड</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblAACost_6">18.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblExpMar_6">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblBalCost_6">18.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMarProvi_6">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblRelessed_6">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblExp9_6">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblDemnd_6">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblC_6">3</span>
+                                           
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblP_6">0</span>
+                                           
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNS_6">0</span>
+                                           
+
+                                        </td><td align="left">&nbsp;</td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblApr_6">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMay_6">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJun_6">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJul_6">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblAug_6">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblSep_6">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblOct_6">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblNov_6">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblDec_6">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblJan_6">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblFeb_6">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblMar1_6">0.00</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotal_6">0.00</span>
+                                        </td>
+		</tr><tr>
+			<td align="center">&nbsp;</td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalNoWorks">18</span>
+                                        </td><td>
+                                            <span id="ContentPlaceHolder1_GridView1_lblGrandTotal" style="font-weight:bold;">एकूण</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalAACost">96</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalExpMar">0</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalBalCost">96</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalMarProvi">0</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalRelessed">0</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalexp9">0</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalDemnd1">0</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblSadhyasisthC1">16</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblSadhyasisthP1">2</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblSadhyasisthNS1">0</span>
+                                        </td><td>&nbsp;</td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalApr">0</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalMay">0</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalJun">0</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalJul">0</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalAug">0</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalSep">0</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalOct">0</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalNov">0</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalDec">0</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalJan">0</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalFeb">0</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalMar1">0</span>
+                                        </td><td align="center">
+                                            <span id="ContentPlaceHolder1_GridView1_lblTotalTotal">0</span>
+                                        </td>
+		</tr>
+	</table>
+</div>

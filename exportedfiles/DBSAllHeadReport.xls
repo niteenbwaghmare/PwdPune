@@ -1,0 +1,71 @@
+<div>
+	<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridView1" style="font-weight:bold;border-collapse:collapse;">
+		<tr>
+			<th align="left" scope="col" style="width:5%;">Sr.No</th><th scope="col">Head</th><th scope="col">No Of Work</th>
+		</tr><tr align="center">
+			<td>
+                                            1
+                                        </td><td>Annuty</td><td>3</td>
+		</tr><tr align="center">
+			<td>
+                                            2
+                                        </td><td>Building</td><td>36</td>
+		</tr><tr align="center">
+			<td>
+                                            3
+                                        </td><td>CRF</td><td>3</td>
+		</tr><tr align="center">
+			<td>
+                                            4
+                                        </td><td>Deposit Fund</td><td>631</td>
+		</tr><tr align="center">
+			<td>
+                                            5
+                                        </td><td>DPDC</td><td>93</td>
+		</tr><tr align="center">
+			<td>
+                                            6
+                                        </td><td>GAT_A</td><td>789</td>
+		</tr><tr align="center">
+			<td>
+                                            7
+                                        </td><td>GAT_D</td><td>10</td>
+		</tr><tr align="center">
+			<td>
+                                            8
+                                        </td><td>FBC</td><td>101</td>
+		</tr><tr align="center">
+			<td>
+                                            9
+                                        </td><td>MLA</td><td>186</td>
+		</tr><tr align="center">
+			<td>
+                                            10
+                                        </td><td>MP</td><td>95</td>
+		</tr><tr align="center">
+			<td>
+                                            11
+                                        </td><td>Nabard</td><td>76</td>
+		</tr><tr align="center">
+			<td>
+                                            12
+                                        </td><td> NonResidential_Building</td><td>117</td>
+		</tr><tr align="center">
+			<td>
+                                            13
+                                        </td><td> Residential_Building</td><td>128</td>
+		</tr><tr align="center">
+			<td>
+                                            14
+                                        </td><td>Road_03</td><td>65</td>
+		</tr><tr align="center">
+			<td>
+                                            15
+                                        </td><td>Road_04</td><td>252</td>
+		</tr><tr align="center">
+			<td>
+                                            16
+                                        </td><td>Road_ROB</td><td>2</td>
+		</tr>
+	</table>
+</div>

@@ -1,0 +1,916 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SuperAdmin.master.cs" Inherits="PWdEEBudget.SuperAdmin" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+
+<!DOCTYPE html>
+
+<html>
+<%--xmlns="http://www.w3.org/1999/xhtml"--%>
+<head id="Head1" runat="server" aria-atomic="False">
+    <title>EEPwdEastPuneBudget</title>
+
+    <link rel="shortcut icon" href="Images/SBIcon1.ico" />
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=9" />
+    <meta http-equiv="x-ua-compatible" content="IE=8" />
+    <meta http-equiv="x-ua-compatible" content="IE=7" />
+    <meta http-equiv="x-ua-compatible" content="IE=5" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+
+    <meta name="author" content="" />
+    <script type="text/javascript" src="js/JScript.js"></script>
+    <style>
+        .searching {
+            width: 150PX;
+            margin-left: 239PX;
+            Height: 26px;
+            box-sizing: border-box;
+            /*border: 4px solid #ccc;*/
+            border-radius: 32px;
+            font-size: 13px;
+            background-color: white;
+            background-image: url(img/searchicon.png);
+            background-position: 4px 0px;
+            background-repeat: no-repeat;
+            padding: 10px 11px 10px 34px;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+        }
+
+
+        #footer {
+            clear: both;
+            position: relative;
+            z-index: 10;
+            height: 3em;
+            margin-top: -3em;
+        }
+
+        .modalBackground {
+            background-color: Gray;
+            filter: alpha(opacity=80);
+            opacity: 0.8;
+            z-index: 10000;
+        }
+    </style>
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- MetisMenu CSS -->
+    <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/EE.css" rel="stylesheet" />
+
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <%--<script src="js/css3clock.js"></script>--%>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet" />
+    <%--   <link href="css/tblmargin.css" rel="stylesheet" />--%>
+    <!-- Custom Fonts -->
+    <%--   <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>--%>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <%--<link href="OnlineContent/jquery-ui.css" rel="stylesheet" />--%>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <%-- <script src="OnlineContent/jquery-1.9.1.js"></script>--%>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <%--<script src="OnlineContent/jQuery/1.10.3/jquery-ui.js"></script>--%>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <%--<script src="OnlineContent/jQuery/2.1.3/jquery.min.js"></script>--%>
+    <script type="text/javascript" src="Scripts/ScrollTop.js"></script>
+    <style>
+        @media only screen and (min-width:768px) {
+            /*desktop*/
+            .col-3 {
+                width: 400%;
+            }
+
+            .user {
+                left: auto;
+                right: 0px;
+            }
+
+            .MasterRptChart {
+                margin-left: 20%;
+            }
+        }
+
+        @media only screen and (max-width:500px) {
+            [class*="col-"] {
+                width: 100%;
+            }
+
+            .user {
+                right: auto;
+                left: 0px;
+            }
+
+            #test {
+                width: 57% !important;
+                height: auto !important;
+                position: fixed !important;
+                left: -45% !important;
+                background: linear-gradient(rgb(204, 204, 204), rgb(250, 232, 189)) !important;
+                display: block !important;
+            }
+
+            .pwdhead {
+                color: #e6120e !important;
+                text-shadow: 2px 2px 4px rgb(166, 157, 157) !important;
+                margin-left: 5% !important;
+            }
+
+            .pwdhead {
+                font-size: 20px !important;
+            }
+
+
+
+            .searching {
+                margin-left: 0 !important;
+                Height: 26px !important;
+                box-sizing: border-box !important;
+                border-radius: 32px !important;
+                font-size: 13px !important;
+                background-image: url(img/searchicon.png) !important;
+                background-position: 4px 0px !important;
+                background-repeat: no-repeat !important;
+                padding: 10px 11px 10px 34px !important;
+                transition: width 0.4s ease-in-out !important;
+            }
+
+            .container-fluid {
+                /*Horizontal scroll*/
+                /*width: 30em;
+                overflow-x: auto;
+                white-space: nowrap;*/
+                margin-left: 0 !important;
+            }
+
+            #Notif_Ul {
+                margin: -4.5px -28px !important;
+            }
+
+
+
+            .notification {
+                margin: -55px -7px !important;
+            }
+
+            #notifications {
+                width: 350px !important;
+                position: absolute;
+                top: 54px;
+                left: -756% !important;
+                background: #FFF;
+                border: solid 1px rgba(100, 100, 100, .20);
+                z-index: 0;
+            }
+
+            .SideMenuDiv {
+                width: 204% !important;
+            }
+
+            .loading {
+                left: 25% !important;
+            }
+
+            #topcontrol {
+                right: 20px !important;
+            }
+
+            .btnModal {
+                width: 100% !important;
+            }
+
+            #Image2 {
+                height: 50px;
+                margin-top: -35% !important;                
+                margin-left: -35px;
+            }
+        }
+    </style>
+    <style type='text/css'>
+        .dvContent {
+            Width: 100px;
+            height: 100%;
+            /*background-color: gray;*/
+            overflow-y: auto;
+            /*position: fixed;*/
+            left: 0;
+        }
+
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+            border-radius: 100px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            border-radius: 100px;
+            -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.5);
+        }
+    </style>
+    <style type="text/css">
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: black;
+            z-index: 99;
+            opacity: 0.8;
+            filter: alpha(opacity=80);
+            -moz-opacity: 0.8;
+            min-height: 100%;
+            width: 100%;
+        }
+
+        .loading {
+            font-family: Arial;
+            font-size: 10pt;
+            border: 5px solid #67CFF5;
+            width: 200px;
+            height: 100px;
+            display: none;
+            position: fixed;
+            background-color: White;
+            z-index: 999;
+        }
+
+        .ddlList { /*this for Div design code for toggle(show or hide) all Dropdownlist on Report Page*/
+            border-radius: 100px;
+            border-top-left-radius: 100px;
+            border-top-right-radius: 100px;
+            border-bottom-right-radius: 100px;
+            border-bottom-left-radius: 100px;
+            background-color: #c2c2c2;
+            width: 137px !important;
+            height: 30px;
+            cursor: pointer;
+            float: right !important;
+            font-weight: 700;
+            padding: 6px;
+            padding-left: 13px !important;
+        }
+
+        .Graph3 {
+            border-radius: 100px;
+            border-top-left-radius: 100px;
+            border-top-right-radius: 100px;
+            border-bottom-right-radius: 100px;
+            border-bottom-left-radius: 100px;
+            background-color: #c2c2c2;
+            width: 150px !important;
+            height: 30px;
+            cursor: pointer;
+            float: right !important;
+            font-weight: 700;
+            padding: 6px;
+            padding-left: 13px !important;
+            text-align: center!important;
+        }
+
+        #Notif_Ul_SMS {
+            margin: -4.5px -28px !important;
+            list-style: none;
+        }
+
+
+        .notification_SMS {
+            margin: -55px -7px !important;
+        }
+
+        #notifications_SMS {
+            width: 248px !important;
+            position: absolute;
+            top: 16px;
+            height: 428px;
+            left: 3px;
+            display: none;
+        }
+
+
+
+        .btn-glyphicon {
+            padding: 8px;
+            background: #ffffff;
+            margin-right: 4px;
+        }
+
+        .icon-btn {
+            padding: 1px 15px 3px 2px;
+            border-radius: 50px;
+        }
+    </style>
+    <script src="js/jquery.min.js"></script>
+    <%--<script src="OnlineContent/jQuery/1.8.3/jquery.min.js"></script>--%>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <!--SideBarHide -->
+    <%-- <link href="OnlineContent/bootstrap.min.css" rel="stylesheet" />
+    <link href="OnlineContent/font-awesome.min.css" rel="stylesheet" />
+    <script src="OnlineContent/jQuery/1.10.1/jquery.min.js"></script>--%>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <link href="css/Notification.css" type="text/css" rel="stylesheet" />
+    <!--End oF Sidebar Hide -->
+    <script type="text/javascript">
+        // ANIMATEDLY DISPLAY THE NOTIFICATION COUNTER.
+        $(document).ready(function () {
+            //$('#notifications').hide();
+
+            $('#Image2').mouseover(function () {
+
+                // (SHOW OR HIDE) NOTIFICATION WINDOW.
+                $('#notifications_SMS').show('fast', 'linear', function () {
+
+                });
+            });
+
+            // HIDE NOTIFICATIONS WHEN CLICKED ANYWHERE ON THE PAGE.
+            $('#li_App').mouseleave(function () {
+                $('#notifications_SMS').hide();
+
+            });
+            $('#txtMobileNo').mouseenter(function () {
+                $('#notifications_SMS').show();
+
+            });
+        });
+
+
+    </script>
+
+
+    <style type="text/css">
+        .txtsearch {
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="css/Blink.css" rel="stylesheet" />
+</head>
+
+<body style="background-color: white" onload="load()">
+
+
+    <div>
+        <form id="form1" runat="server" style="margin-left: -3%">
+            <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+            <div id="wrapper">
+                <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0; background: linear-gradient(#ccc,#fae8bd); border-color: #e7e7e7;">
+                    <div class="navbar-header" style="margin-left: auto;">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" style="margin-left: 6px; margin-top: 10px;">
+                            <%-- <span style="height:50px;width:130px"><img src="Images/DBS-001.jpg"/></span>--%>
+                            <asp:TextBox ID="search" runat="server" class="searching" placeholder="Enter WorkID" Width="170px" AutoPostBack="True" OnTextChanged="search_TextChanged"></asp:TextBox>
+                            <ajaxToolkit:AutoCompleteExtender ServiceMethod="GetCompletionList" MinimumPrefixLength="1" CompletionInterval="10" EnableCaching="false" CompletionSetCount="1" TargetControlID="search" ID="AutoCompleteExtender1" runat="server" FirstRowSelected="false" CompletionListCssClass="AutoExtender" CompletionListItemCssClass="AutoExtenderList" CompletionListHighlightedItemCssClass="AutoExtenderHighlight">
+                            </ajaxToolkit:AutoCompleteExtender>
+                        </a>
+                        <%-- <span><asp:Label ID="lbltitle" runat="server" Text="सार्वजनिक बांधकाम पूर्व विभाग पुणे" Font-Size="X-Large" Font-Bold="true"></asp:Label></span>--%>
+                        <%--<h1 style="color: #e6120e; text-shadow: 2px 2px 4px rgb(166, 157, 157); margin-left: 541px;" class="pwdhead">सार्वजनिक बांधकाम पूर्व विभाग पुणे</h1>--%>
+                        <label style="color: #e6120e; text-shadow: 2px 2px 4px rgb(166, 157, 157); font-weight: 500; font-size: 36px; margin-top: 1%;" class="pwdhead">सार्वजनिक बांधकाम पूर्व विभाग पुणे</label>
+                    </div>
+
+                    <!-- /.navbar-header -->
+                    <div class="pull-right" style="margin-top: 14px; margin-right: 0px">
+                        <span>
+                            <ul class="nav navbar-nav notification">
+                                <li class="nav navbar-nav">
+                                    <ul id="Notif_Ul">
+                                        <li id="notif_li">
+                                            <div id="noti_Counter" runat="server">
+                                            </div>
+                                            <!--SHOW NOTIFICATIONS COUNT.-->
+
+                                            <!--A CIRCLE LIKE BUTTON TO DISPLAY NOTIFICATION DROPDOWN.-->
+                                            <div id="noti_Button">
+                                                <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/notification.png" Height="100%" Style="margin-top: 25%;" />
+                                            </div>
+                                            <!--THE NOTIFICAIONS DROPDOWN BOX.-->
+                                            <div id="notifications">
+                                                <h3>Notifications</h3>
+                                                <h5>कामपुर्ण दि. &nbsp;&nbsp; वर्कआडी &nbsp;&nbsp;&nbsp;&nbsp; कामाचे नाव</h5>
+                                                <div style="height: 300px; overflow-x: auto" id="noti_disp" runat="server">
+                                                </div>
+                                                <div class="seeAll"><a href="#">See All</a></div>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </span>
+
+                    </div>
+                    <div class="top_nav">
+                        <div class="nav_menu">
+                            <nav>
+
+                                <ul class="nav navbar-nav navbar-right" style="margin-right: 0px; margin-left: 150px;">
+                                    <li class="">
+                                        <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false" style="margin-top: 6%;">
+                                            <img class="img-circle" id="imgUser" runat="server" alt="" style="height: 25px; width: 30px"><asp:Label ID="lblUserName" runat="server" Style="color: black"></asp:Label>
+                                        </a>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                            <li><a href="SuperAdmin_Profile.aspx">Profile</a></li>
+                                            <li>
+                                                <a href="#" data-target="#pwdModal" data-toggle="modal">
+                                                    <span>Settings</span>
+                                                </a>
+                                            </li>
+                                            <li></li>
+                                            <li><a href="Help.aspx">Help</a></li>
+                                            <li><a href="ChangePassword.aspx">Change Password</a></li>
+                                            <li>
+                                                <asp:Button ID="logout" runat="server" Width="100%" Style="display: block; font-size: 15px; text-align: left; padding: 3px 20px; clear: both; font-weight: 400; line-height: 1.42857143; color: #333; white-space: nowrap;" BorderStyle="None" OnClick="logout_OnClick" BackColor="White" Text="Logout" ForeColor="Black" /></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                    </div>
+
+
+
+                   <%-- <div class="pull-right" style="position: absolute; top: 77px; left: 77%;">
+                        <span>
+                            <ul class="nav navbar-nav notification_SMS">
+                                <li class="nav navbar-nav">
+                                    <ul id="Notif_Ul_SMS">
+                                        <li id="notif_li_SMS">
+
+                                            <!--A CIRCLE LIKE BUTTON TO DISPLAY NOTIFICATION DROPDOWN.-->
+                                            <div id="noti_Button_SMS" style="width: 100px;">
+                                                <asp:Image ID="Image2" runat="server" ImageUrl="~/img/mobile_icon_1.gif" Height="50px" Style="margin-top: -11%;" />
+                                            </div>
+                                            <!--THE NOTIFICAIONS DROPDOWN BOX.-->
+                                            <div id="notifications_SMS" style="background-image: url(../img/Phone3_3.png)">
+
+                                                <div style="height: 100%; overflow-x: auto" id="noti_disp_SMS" runat="server">
+                                                    <div id="div_sendLink" style="position: absolute; width: 76%; left: 13%; top: 36%;">
+                                                        <table id="tblsendLink" style="position: absolute; top: 44px; width: 100%;">
+                                                            <tbody>
+
+                                                                <tr>
+                                                                    <td>
+                                                                        <asp:TextBox runat="server" ID="txtMobileNo" placeholder="+91xxxxxxxx" CssClass="form-control" Font-Size="1.875em"></asp:TextBox>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <a class="btn icon-btn btn-info" href="#"><span class="glyphicon btn-glyphicon glyphicon-send img-circle text-info"></span>
+                                                                            <asp:Button runat="server" ID="btnsendLink" Text="Send Link" Style="border: none; background-color: rgba(255, 0, 0, 0);" /></a>
+                                                                    </td>
+                                                                </tr>
+
+                                                            </tbody>
+                                                        </table>
+                                                        <a class="btn icon-btn btn-default" href="AndroidApplication/DBS.apk" style="position: relative; top: 173px; width: 92%;"><span class="glyphicon btn-glyphicon glyphicon-save img-circle text-muted"></span>Download</a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </span>
+
+                    </div>--%>
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <div id="test" class="container+ sidebar sidebar-left" style="width: auto; height: auto; position: fixed; left: 0px; background: linear-gradient(#ccc,#fae8bd)">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 SideMenuDiv">
+                                    <div class="list-group">
+                                        <div role="navigation">
+                                            <div>
+                                                <div class="down" style="margin-top: -20px; padding: 26px 0px 8px; background-color: #ccc">
+                                                    <span class="img-responsive">
+                                                        <asp:Image ID="logo" runat="server" src="logo/logo.jpg" Width="180px" /></span>
+                                                </div>
+                                            </div>
+                                            <div class="sidebar-nav navbar-collapse" style="height: auto; background: linear-gradient(#ccc,#fae8bd)">
+                                                <ul class="nav" id="side-menu">
+
+                                                    <li><a href="SuperAdminPanel.aspx"><span style="font-size: 15px;">Home</span></a></li>
+                                                    <li id="menu-academico"><a href="SuperAdmin_Profile.aspx"><span style="font-size: 15px;">Profile</span> </a></li>
+                                                    <li id="Li2"><a href="Inbox.aspx"><span style="font-size: 15px;">Inbox</span> </a></li>
+                                                    <li><a href="ViewUserProfile.aspx"><span style="font-size: 15px;">User</span></a></li>
+                                                    <li><a href="MasterBudgetMenu.aspx"><span style="font-size: 15px;">Master Budget Form</span></a></li>
+                                                    <li><a href="MPR Report.aspx"><span style="font-size: 15px;">MPR Report </span></a></li>
+                                                    <li><a href="MasterReport.aspx"><span style="font-size: 15px;">Master HeadWise Report</span></a></li>
+                                                    <li><a href="SReport.aspx"><span style="font-size: 15px;">Master Individual Report</span></a></li>
+                                                    <li><a href="SReport17Columns.aspx"><span style="font-size: 15px;">17 Column Individual Report</span></a></li>
+                                                    <li><a href="EmailReport.aspx"><span style="font-size: 15px;">Mail Report </span></a></li>
+                                                    <li><a href="SUpdate.aspx"><span style="font-size: 15px;">HeadWise Abstract</span></a></li>
+                                                    <%-- <li><a href="Update.aspx"><span style="font-size: 15px;">Update</span></a></li>--%>
+                                                    <li><a href="DBSReport.aspx"><span style="font-size: 15px;">DBSReport</span></a></li>
+                                                    <%-- <li><a href="Setting.aspx"><span style="font-size: 15px;">Setting</span></a></li>--%>
+                                                    <li>
+                                                        <div class="container">
+                                                            <a href="#" data-target="#pwdModal" data-toggle="modal" style="font-size: 15px !important">Setting</a>
+                                                        </div>
+                                                    </li>
+                                                    <li><a href="Calender.aspx"><span style="font-size: 15px;">calendar</span></a></li>
+                                                    <li><a onclick="javascript:window.open('http://ostermiller.org/calc/calculator.html','calculator'+new Date().getTime(),'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=yes,copyhistory=no,width=450,height=300');"><span style="font-size: 15px;">Calculator</span></a></li>
+                                                    <li><a href="UserGuide.aspx"><span style="font-size: 15px;">Application User Guide</span></a></li>
+                                                    <li><a href="Help.aspx"><span style="font-size: 15px;">Help</span></a></li>
+                                                    <%-- <li><a id="test" href="Login.aspx" runat="server" onclick="exit"><span>Exit</span></a></li>--%>
+                                                </ul>
+                                            </div>
+                                            <!-- /.sidebar-collapse -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="toggler" data-whois="toggler" style="background-color: red; left: 98%; top: 48%;">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.navbar-static-side -->
+                </nav>
+            </div>
+            <%-- </ContentTemplate>
+            </asp:UpdatePanel>--%>
+            <!-- Page Content -->
+
+
+            <!--modal-->
+            <div id="pwdModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-body">
+                            <div class="col-md-12">
+                                <div class="panel panel-default">
+                                    <div class="panel-body" style="border-top: 1px solid #ddd !important;">
+                                        <div class="text-center">
+
+                                            <p><b style="font-size: 150% !important;">Enter Master Password to access setting</b></p>
+                                            <div class="panel-body" style="border-top: 1px solid #ddd !important;">
+                                                <fieldset>
+                                                    <div class="form-group">
+                                                        <asp:TextBox ID="txtMasterPassword" runat="server" CssClass="form-control input-lg" placeholder="password" TextMode="Password"></asp:TextBox>
+                                                    </div>
+
+                                                    <asp:Button ID="btnSubmitMasterPassword" runat="server" Text="Submit Password" CssClass="btn btn-lg btn-primary btn-block" Style="height: 103% !important; margin-left: 0 !important; font-size: 130% !important; color: #f6f2f2 !important;" OnClick="btnSubmitMasterPassword_Click" />
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="col-md-12">
+                                <button class="btn btnModal" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" style="margin-left: 40px">
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <%-- </div>--%>
+            <%--</div>--%>
+
+            <!-- /.container-fluid -->
+
+            <!-- /#page-wrapper -->
+
+
+            <!-- /#wrapper -->
+
+        </form>
+    </div>
+
+    <!-- jQuery -->
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+    <style type="text/css">
+        input[type="submit"], input[type="image"] {
+            border-radius: 5px;
+            background: linear-gradient(gray,white);
+            font-weight: 700;
+            color: black;
+        }
+
+        input[type="text"] {
+            color: black;
+            font-weight: bold;
+        }
+
+        table > tr > td, th {
+            /*color: red;*/
+            font-weight: bold;
+        }
+
+        table:first-child tr > th {
+            background-color: lightgray;
+            color: rgb(117, 15, 15);
+            font-size: 20px;
+        }
+
+        @media (max-width:667px) {
+            .toggler {
+                display: none;
+            }
+
+            .sidebar-left > .toggler {
+                background-color: green !important;
+            }
+            /*.col-xs-12 col-sm-12 col-md-12 col-lg-12 {
+                display:none;
+            }*/
+            #test {
+                /*display:none;*/
+            }
+        }
+    </style>
+    <link href="css/AutoCompletExtender.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <%-- <script src="OnlineContent/jquery-2.2.4.min.js"></script>
+    <script src="OnlineContent/bootstrap.min.js"></script>--%>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="css/BootSideMenu.css" rel="stylesheet" />
+    <link href="css/Grid_WorkStatus.css" rel="stylesheet" />
+
+
+    <script type="text/javascript">
+        function pageLoad() {
+            $(".highcharts-credits").hide();
+
+            $(document).ready(function f1() {
+                $(".Graph2").toggle();
+                $('#test').BootSideMenu({
+                    side: "left",
+                    pushBody: false,
+                    remember: false
+                });
+                //bindEvents();
+            });
+            $(".selectableddl").searchable({
+                maxListSize: 200, // if list size are less than maxListSize, show them all
+                maxMultiMatch: 300, // how many matching entries should be displayed
+                exactMatch: false, // Exact matching on search
+                wildcards: true, // Support for wildcard characters (*, ?)
+                ignoreCase: true, // Ignore case sensitivity
+                latency: 200, // how many millis to wait until starting search
+                warnMultiMatch: 'top {0} matches ...',
+                warnNoMatch: 'no matches ...',
+                zIndex: 'auto'
+
+            });
+            // TOGGLE (SHOW OR HIDE) GridView Column By using CheckBoxlist On All Master Report (without PostBack)
+            $("input[type=checkbox]").click(function () {
+                var column = $(this).next('label').text();
+                var index = $(this).closest("td").prevAll("td").length;
+                index = index + 2;  //chekcBox Index starting with 0 and GridView one more extra column so we need to index = index + 2;
+                $('[id*=GridView1] td:nth-child(' + index + '),[id*=GridView1] th:nth-child(' + index + ')').toggle();
+            });
+            $(".ddlMenu").click(function () {
+
+                var MenuType = $('input[id*=rdbMenuTag]:checked').val();
+
+                if (MenuType == "Setting") {
+                    $("#tdErrorPageReport").hide();
+                    $("#tdDBSReport").hide();
+                    $("#tdSetting").show();
+                    //$("input[id*=rdbDBSReport").removeAttr("checked");
+                    //$("input[id*=rdbErrorPageHead").removeAttr("checked");
+
+                }
+                else if (MenuType == "DBS Report") {
+                    $("#tdErrorPageReport").hide();
+                    $("#tdDBSReport").show();
+                    $("#tdSetting").hide();
+                    //$("input[id*=rdbErrorPageSetting").removeAttr("checked");
+                    //$("input[id*=rdbErrorPageHead").removeAttr("checked");
+                }
+                else {
+                    $("#tdErrorPageReport").show();
+                    $("#tdDBSReport").hide();
+                    $("#tdSetting").hide();
+                    //$("input[id*=rdbErrorPageSetting").removeAttr("checked");
+                    //$("input[id*=rdbDBSReport").removeAttr("checked");
+                }
+            });
+        }
+
+    </script>
+    <%--Script For Notification--%>
+    <script type="text/javascript">
+        // ANIMATEDLY DISPLAY THE NOTIFICATION COUNTER.
+        $('#noti_Counter')
+            .css({ opacity: 0 })
+                          // ADD DYNAMIC VALUE (YOU CAN EXTRACT DATA FROM DATABASE OR XML).
+            .css({ top: '-10px' })
+            .animate({ top: '-2px', opacity: 1 }, 500);
+
+        $('#noti_Button').click(function () {
+
+            // TOGGLE (SHOW OR HIDE) NOTIFICATION WINDOW.
+            $('#notifications').fadeToggle('fast', 'linear', function () {
+                if ($('#notifications').is(':hidden')) {
+                    //     $('#noti_Button').css('background-color', '#2E467C');
+                }
+                //  else $('#noti_Button').css('background-color', 'pink'); 
+                // CHANGE BACKGROUND COLOR OF THE BUTTON.
+            });
+
+            $('#noti_Counter').fadeOut('slow');
+            // HIDE THE COUNTER.
+            return false;
+        });
+
+        // HIDE NOTIFICATIONS WHEN CLICKED ANYWHERE ON THE PAGE.
+        $(document).click(function () {
+            $('#notifications').hide();
+
+            // CHECK IF NOTIFICATION COUNTER IS HIDDEN.
+            if ($('#noti_Counter').is(':hidden')) {
+                // CHANGE BACKGROUND COLOR OF THE BUTTON.
+                //  $('#noti_Button').css('background-color', '#2E467C');
+            }
+        });
+
+
+    </script>
+    <script type="text/Javascript">
+        function checkDec(el) {
+            var ex = /^[0-9]+\.?[0-9]*$/;
+            if (ex.test(el.value) == false) {
+                el.value = el.value.substring(0, el.value.length - 1);
+                if (ex.test(el.value) == "") {
+                    el.value = 0;
+                }
+
+            }
+        }
+    </script>
+    <script>
+        function dateCheck() {
+
+            var d_value = $("#pdate").val();
+            if (d_value.length == "2" || d_value.length == "5") {
+
+                $('#pdate').val($('#pdate').val() + "/");
+            }
+        }
+    </script>
+
+
+    <script type="text/javascript">
+
+        $(".Replece").click(function () {
+            var old = $(this).text();
+            var tex = replace(old);
+            //   var text1 = $('.Replece').text(function (i, old) {
+
+            alert(tex);
+        });
+
+
+
+        function replace(old) {
+            return old
+                    .replace('०', '0')
+                    .replace('१', '1')
+                    .replace('२', '2');
+            //alert("0" + old);
+        }
+        //$(".Replece").click(function(){
+        //.each(function () {
+        //var type = this.type;
+        //var tag = this.tagName.toLowerCase(); // normalize case
+        // to reset the value attr of text inputs,
+        // password inputs, fileUpload and textareas
+        //if (type == 'text')//|| type == 'password' || tag == 'textarea' || type == 'file'
+        //{
+        //    this.innerText = this.replaceAdjacentText("०", "0");
+
+        //    alert(this.innerText);
+        //}
+        //alert("0" + this.innerText);
+        //$("span, p").each(function () {
+        //    var text = $(this).text();
+        //    text = text.replace("lollypops", "marshmellows");
+        //    $(this).text(text);
+        //});
+        // checkboxes and radios need to have their checked state cleared
+        //else if (type == 'checkbox' || type == 'radio')
+        //    this.checked = false;
+        // select elements need to have their 'selectedIndex' property set to -1
+        // (this works for both single and multiple select elements)
+        //else if (tag == 'select')
+        //    this.selectedIndex = 0;
+        // });
+
+
+
+    </script>
+
+
+    <script type="text/javascript" src="Scripts/searchabalddlonlin.js"></script>
+    <script src="Scripts/searchabledropdownlist.js" type="text/javascript"></script>
+    <script src="js/BootSideMenu.js"></script>
+
+
+
+    <script type="text/javascript">
+        function ShowProgress() {
+            setTimeout(function () {
+                var modal = $('<div />');
+                modal.addClass("modal");
+                $('body').append(modal);
+                var loading = $(".loading");
+                loading.show();
+                var top = Math.max($(window).height() / 2 - loading[0].offsetHeight / 2, 0);
+                var left = Math.max($(window).width() / 2 - loading[0].offsetWidth / 2, 0);
+                loading.css({ top: top, left: left });
+            }, 200);
+        }
+        $('form').live("submit", function () {
+            ShowProgress();
+        });
+
+    </script>
+    <script type="text/javascript">
+        var flag = false;
+
+        $(".ddlList").live("click", function () {
+            //if (flag) {
+            $(".ddlListHide").toggle("slow", "swing");
+
+        });
+        $(".Graph3").live("click", function () {
+            var link = $(this);
+            $(".Graph1,.Graph2").toggle("slow", "swing", function () {
+                if ($(".Graph2").is(':visible')) {
+                    link.text('Grid Report');
+                } else {
+                    link.text('Graphics Report');
+                }
+            });
+
+        });
+
+    </script>
+    <script type="text/javascript">
+        //This Code For UploadImage.aspx page
+        $(".fileUpload").click(function () {
+
+            $(".fa-folder").attr("disabled", false);
+        });
+    </script>
+    
+
+    <br />
+</body>
+
+</html>
+

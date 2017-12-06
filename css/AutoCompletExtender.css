@@ -1,0 +1,39 @@
+﻿.AutoExtender {
+    background-color:white;
+	z-index:1000;
+	width:70% !important;
+	max-height:500px;
+	text-align:inherit;
+	
+	list-style:square;
+	overflow-y:scroll;
+	scrollbar-arrow-color:#8E6E1C;
+	scrollbar-base-color:#8E6E1C;
+	scrollbar-face-color:#B6C5D4;
+	scrollbar-3dlight-color:#8E6E1C;
+	scrollbar-highlight-color:#EED47D;
+	scrollbar-shadow-color:#959595;
+	scrollbar-darkshadow-color:#00337E;
+    scrollbar-highlight-color:#fae8bd;
+	margin-left:0px;
+	border-bottom:1px solid #B5C6D4;
+	border-left:1px solid #B5C6D4;
+	margin-top:0px;
+}
+.AutoExtenderList {
+    background:border-box;
+	border-collapse:collapse;
+     border-bottom: groove 1px #006699;
+	color:#000000;
+	white-space:nowrap;
+	text-align:inherit left;
+}
+.AutoExtenderHighlight {
+    background-color:#fae8bd;
+	color:#000000;
+	border-top:1px solid #FFF8E8;
+	border-left:1px solid #FFF8E8;
+	border-bottom:1px solid #00337E;
+	border-right:1px solid #00337E;
+   
+}

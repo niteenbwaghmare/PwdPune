@@ -1,0 +1,370 @@
+<div id="ContentPlaceHolder1_Panel1">
+	
+                    <div style="overflow-x: auto">
+                        <div align="center">
+                            <span id="ContentPlaceHolder1_Label17" style="font-weight: bold; font-size: 24px;">January</span><br />
+                        </div>
+                        <span id="ContentPlaceHolder1_lblBuilding"><h2>Building</h2></span>
+                        <div id="ContentPlaceHolder1_DivRoot" align="left" style="width: 100%">
+                            <div style="width: 100%">
+                                <div style="overflow: hidden; width: 100%" id="DivHeaderRow">
+                                </div>
+                                <div style="overflow: scroll; width: 100%" onscroll="OnScrollDiv(this)" id="DivMainContent">
+                                    <div>
+		<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridBuilding" style="font-size:16px;width:100%;border-collapse:collapse;border: 2px solid">
+			<tr>
+				<th scope="col">अ क्र</th><th scope="col">वर्क आयडी</th><th scope="col">अर्थसंकल्पीय वर्ष</th><th scope="col">कामाचे नाव</th><th scope="col">लेखाशीर्ष नाव</th><th scope="col">विभाग</th><th scope="col">उपविभाग</th><th scope="col">तालुका</th><th scope="col">अर्थसंकल्पीय बाब</th><th scope="col">शाखा अभियंता नाव</th><th scope="col">उपअभियंता नाव</th><th scope="col">आमदारांचे नाव</th><th scope="col">खासदारांचे नाव</th><th scope="col">ठेकेदार नाव</th><th scope="col">प्रशासकीय मान्यता क्र/रक्कम/दिनांक</th><th scope="col">तांत्रिक मान्यता क्र/रक्कम/दिनांक</th><th scope="col">कामाचा वाव</th><th scope="col">कार्यारंभ आदेश</th><th scope="col">निविदा रक्कम % कमी / जास्त</th><th scope="col">बांधकाम कालावधी</th><th scope="col">काम पूर्ण तारीख</th><th scope="col">मुदतवाढ बाबत</th><th scope="col">मंजूर अंदाजित किंमत</th><th scope="col">मार्च अखेर खर्च 2017</th><th scope="col">उर्वरित किंमत</th><th scope="col">चालु खर्च</th><th scope="col">मागील खर्च</th><th scope="col">सन 2017-2018 मधील माहे एप्रिल/मे अखेरचा खर्च</th><th scope="col">एकुण कामावरील खर्च</th><th scope="col">प्रथम तिमाही तरतूद</th><th scope="col">द्वितीय तिमाही तरतूद</th><th scope="col">तृतीय तिमाही तरतूद</th><th scope="col">चतुर्थ तिमाही तरतूद</th><th scope="col">अर्थसंकल्पीय तरतूद</th><th scope="col">वितरित तरतूद</th><th scope="col">मागणी</th><th scope="col">विद्युतीकरणावरील प्रमा</th><th scope="col">विद्युतीकरणावरील वितरित</th><th scope="col">इतर खर्च</th><th scope="col">दवगुनी ज्ञापने</th><th scope="col">पाहणी क्रमांक</th><th scope="col">पाहणीमुद्ये</th><th scope="col">देयकाची सद्यस्थिती</th><th scope="col">शेरा</th><th scope="col">Apr</th><th scope="col">May</th><th scope="col">Jun</th><th scope="col">Jul</th><th scope="col">Aug</th><th scope="col">Sep</th><th scope="col">Oct</th><th scope="col">Nov</th><th scope="col">Dec</th><th scope="col">Jan</th><th scope="col">Feb</th><th scope="col">Mar</th>
+			</tr><tr>
+				<td style="background-color:LightYellow;">1</td><td>B_1</td><td>2011-2012</td><td>दौंड जिल्हा पुणे तहशील कार्यालया करिता 21 तलाठी कार्यालयाचे बांधकाम करणे.</td><td>४०५९ सा.बा.यावरील भांडवली खर्च जिल्हा- प्रशासन कामे (४०५९०७९९)</td><td>महसूल व वन विभाग</td><td>सा.बां.उपविभाग,दौंड</td><td>Daund</td><td>1</td><td>श्री.ए.				 के.  मोहिते 9767752720</td><td>श्री.के .एस. कमते 9823267075		</td><td>मा. आ. श्री. राहुल कुल - विधान सभा आमदार</td><td>मा.  खा. श्रीमती. सुप्रिया सुळे - लोकसभा खासदार</td><td>मे टी अंड  टी ग्रुप  पुणे  9420495002</td><td>शासन निर्णय- प्रशामा बीएलडी 3411/प्र.क्र43 /ई-8 203.49 13/04/2011</td><td>जा.क्र.प्र.शा/17520/2011 179.38 15/10/2011</td><td> तहशील कार्यालया करिता 21 तलाठी कार्यालयाचे बांधकाम करणे.</td><td>बी-1/सी.ई/16 सन 2011-12 03/01/2012</td><td>0.00</td><td>12</td><td>03/01/2013</td><td>होय</td><td>203.49</td><td>183.88</td><td>19.61</td><td>0.00</td><td>0.00</td><td>0.00</td><td>183.88</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>10.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0</td><td>31/12/2015</td><td>&nbsp;</td><td>0</td><td>पूर्ण एकूण १५ सुरु .13 कामे हस्तांतरित दि.३१/१२/२०१५ व २ कामे रावणगाव,कुरकुंभ  रद्द .</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td>
+			</tr><tr style="background-color:Bisque;border:none;">
+				<td style="background-color:LightYellow;">1</td><td>Total</td><td></td><td>&nbsp;</td><td></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>0.00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>203.49</td><td>183.88</td><td>19.61</td><td>0.00</td><td>0.00</td><td>0.00</td><td>183.88</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>10.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td>
+			</tr><tr style="background-color:LightYellow;">
+				<td>No Of Work = 1</td><td>Grand Total</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>203.49</td><td>183.88</td><td>19.61</td><td>0.00</td><td>0.00</td><td>0.00</td><td>183.88</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>10.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td>
+			</tr>
+		</table>
+	</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <span id="ContentPlaceHolder1_lblRoad"><h2>Road</h2></span>
+                        <div id="ContentPlaceHolder1_DivRoot1" align="left" style="width: 100%">
+                            <div style="width: 100%">
+                                <div style="overflow: hidden; width: 100%" id="DivHeaderRow1">
+                                </div>
+                                <div style="overflow: scroll; width: 100%" onscroll="OnScrollDiv2(this)" id="DivMainContent1">
+                                    <div>
+		<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridRoad" style="font-size:16px;width:100%;border-collapse:collapse;border: 2px solid">
+			<tr>
+				<th scope="col">अ.क्र</th><th scope="col">वर्क आयडी</th><th scope="col">पान क्र</th><th scope="col">बाब क्र</th><th scope="col">जुलै/ बाब क्र./पान क्र.</th><th scope="col">अर्थसंकल्पीय वर्ष</th><th scope="col">कामाचे नाव</th><th scope="col">लेखाशीर्ष नाव</th><th scope="col">विभाग</th><th scope="col">उपविभाग</th><th scope="col">तालुका</th><th scope="col">शाखा अभियंता नाव</th><th scope="col">उपअभियंता नाव</th><th scope="col">आमदारांचे नाव</th><th scope="col">खासदारांचे नाव</th><th scope="col">ठेकेदार नाव</th><th scope="col">प्रशासकीय मान्यता क्र/रक्कम/दिनांक</th><th scope="col">तांत्रिक मान्यता क्र/रक्कम/दिनांक</th><th scope="col">कामाचा वाव</th><th scope="col">कार्यारंभ आदेश</th><th scope="col">निविदा रक्कम % कमी / जास्त</th><th scope="col">बांधकाम कालावधी</th><th scope="col">काम पूर्ण तारीख</th><th scope="col">मुदतवाढ बाबत</th><th scope="col">मंजूर अंदाजित किंमत</th><th scope="col">सुरवाती पासून मार्च 2017 अखेरचा खर्च</th><th scope="col">उर्वरित किंमत</th><th scope="col">सन 2017-18 मधील माहे एप्रिल/मे अखेरचा खर्च</th><th scope="col">मागील खर्च</th><th scope="col">एकुण कामावरील खर्च</th><th scope="col">2017-18 मधील अर्थसंकल्पीय तरतूद मार्च 2017</th><th scope="col">2017-18 मधील अर्थसंकल्पीय तरतूद जुलै 2017</th><th scope="col">तृतीय तिमाही तरतूद</th><th scope="col">चतुर्थ तिमाही तरतूद</th><th scope="col">एकूण अर्थसंकल्पीय तरतूद</th><th scope="col">2017-18 मधील वितरीत तरतूद</th><th scope="col">2017-18 साठी मागणी</th><th scope="col">विद्युतीकरणावरील प्रमा</th><th scope="col">विद्युतीकरणावरील वितरित</th><th scope="col">इतर खर्च</th><th scope="col">दवगुनी ज्ञापने</th><th scope="col">पाहणीमुद्ये</th><th scope="col">पाहणी क्रमांक</th><th scope="col">C</th><th scope="col">P</th><th scope="col">NS</th><th scope="col">शेरा</th><th scope="col">Apr</th><th scope="col">May</th><th scope="col">Jun</th><th scope="col">Jul</th><th scope="col">Aug</th><th scope="col">Sep</th><th scope="col">Oct</th><th scope="col">Nov</th><th scope="col">Dec</th><th scope="col">Jan</th><th scope="col">Feb</th><th scope="col">Mar</th>
+			</tr><tr>
+				<td style="background-color:LightYellow;">1</td><td>O_152737</td><td>38</td><td>723</td><td>691/29</td><td>2015-2016</td><td>न्हावरा इनामगाव रस्ता रामा 55 ची सुधारणा करणे किमी 86/600 ते 87/100 ता. शिरुर जि. पुणे(नवीन काम 3/2015
+</td><td>५०५४ मार्ग व पुल यावरील भांडवली खर्च ०३ राज्यमार्ग ३३७ रस्त्याची कामे मागणी क्र. एच-७ (५०५४०३४९) </td><td>सा.बा.विभाग</td><td>सा.बां.उपविभाग, शिरुर</td><td>Shirur</td><td>श्री.ए. जे. बडे  9404192859</td><td>श्री.एच.आर.चोगुले 9823202916</td><td>मा. आ. श्री. बाबुराव पाचर्णे - विधान सभा आमदार</td><td>मा.  खा. श्री. शिवाजीराव आढळराव पाटील - लोकसभा खासदार</td><td>मे.एस.  एस. कन्स्ट्रक्शन 9923341466</td><td>मुख्य अभियंता, सा.बां.प्रादेशिक, विभाग ,पुणे पत्र क्र. का-2/ रस्ता/नि/क्र74/2015 25.00 03/03/2015</td><td>कार्यकारी अभियंत,सा.बां. (पुर्व) विभाग,पुणे जा.क्र./प्रकल्प-1/ 3/2506/2015 24.93 15/04/2015</td><td>रुंदीकरण ,खडीकरण करणे , बी एम कारपेट </td><td>5058 27/07/2015</td><td>21.24</td><td>6</td><td>27/01/2016</td><td>होय</td><td>25.00</td><td>27.31</td><td>-2.31</td><td>0.00</td><td>0.00</td><td>27.31</td><td>0.10</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.10</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0</td><td>&nbsp;</td><td>&nbsp;</td><td>1</td><td>0</td><td>0</td><td>Completed काम पूर्ण </td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td>
+			</tr><tr>
+				<td style="background-color:LightYellow;">2</td><td>O_152738</td><td>38</td><td>724</td><td>692/29</td><td>2015-2016</td><td>न्हावरा इनामगाव रस्ता रामा 55 ची सुधारणा करणे किमी 99/700 ते 101/00 ता. शिरुर, जि. पुणे (नवीन काम 3/2015
+</td><td>५०५४ मार्ग व पुल यावरील भांडवली खर्च ०३ राज्यमार्ग ३३७ रस्त्याची कामे मागणी क्र. एच-७ (५०५४०३४९) </td><td>सा.बा.विभाग</td><td>सा.बां.उपविभाग, शिरुर</td><td>Shirur</td><td>श्री.ए. जे. बडे  9404192859</td><td>श्री.एच.आर.चोगुले 9823202916</td><td>मा. आ. श्री. बाबुराव पाचर्णे - विधान सभा आमदार</td><td>मा.  खा. श्री. शिवाजीराव आढळराव पाटील - लोकसभा खासदार</td><td>मे.एस.  एस. कन्स्ट्रक्शन 9923341466</td><td>मुख्य अभियंता, सा.बां.प्रादेशिक, विभाग ,पुणे पत्र क्र. का-2/ रस्ता/नि/क्र76/2015 25.00 03/03/2015</td><td>कार्यकारी अभियंत,सा.बां. (पुर्व) विभाग,पुणे जा.क्र./प्रकल्प-1/2/2505/2015 24.97 15/04/2015</td><td>बी एम कारपेट </td><td>5030 21/07/2015</td><td>21.27</td><td>6</td><td>21/01/2016</td><td>होय</td><td>25.00</td><td>24.72</td><td>0.28</td><td>0.00</td><td>0.00</td><td>24.72</td><td>0.35</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.35</td><td>0.00</td><td>1.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0</td><td>&nbsp;</td><td>&nbsp;</td><td>1</td><td>0</td><td>0</td><td>Completed काम पूर्ण </td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td>
+			</tr><tr>
+				<td style="background-color:LightYellow;">3</td><td>O_152739</td><td>38</td><td>725</td><td>693/29</td><td>2015-2016</td><td>शिरुर सुपा सांगवी रस्ता रामा 118 ची सुधारणा करणे किमी 5/500 ते 6/300 ता. शिरुर जि. पुणे(नवीन काम 3/2015
+</td><td>५०५४ मार्ग व पुल यावरील भांडवली खर्च ०३ राज्यमार्ग ३३७ रस्त्याची कामे मागणी क्र. एच-७ (५०५४०३४९) </td><td>सा.बा.विभाग</td><td>सा.बां.उपविभाग, शिरुर</td><td>Shirur</td><td>श्री. बी.      आय.    शेळके   9604720265</td><td>श्री.एच.आर.चोगुले 9823202916</td><td>मा. आ. श्री. बाबुराव पाचर्णे - विधान सभा आमदार</td><td>मा.  खा. श्री. शिवाजीराव आढळराव पाटील - लोकसभा खासदार</td><td>एस. एस.  कन्स्ट्रक्शन अहमदनगर   9822025940</td><td>मुख्य अभियंता, सा.बां.प्रादेशिक, विभाग ,पुणे पत्र क्र. का-2/ रस्ता/नि/क्र79/2015 24.00 03/03/2015</td><td>कार्यकारी अभियंत,सा.बां. (पुर्व) विभाग,पुणे जा.क्र./प्रकल्प-1/ 52407/2015 23.97 09/04/2015</td><td>बी एम कारपेट </td><td>5029 21/07/2015</td><td>20.42</td><td>6</td><td>21/01/2016</td><td>होय</td><td>24.00</td><td>0.00</td><td>24.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>6.57</td><td>0.00</td><td>0.00</td><td>0.00</td><td>6.57</td><td>0.00</td><td>25.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0</td><td>&nbsp;</td><td>&nbsp;</td><td>1</td><td>0</td><td>0</td><td>Completed काम पूर्ण </td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td>
+			</tr><tr>
+				<td style="background-color:LightYellow;">4</td><td>O_152740</td><td>38</td><td>725</td><td>694/29</td><td>2015-2016</td><td>न्हावरा इनामगाव रस्ता रामा 55 ची सुधारणा करणे किमी 103/00 ते 103/800 ता. शिरुर जि. पुणे(नवीन काम 3/2015
+</td><td>५०५४ मार्ग व पुल यावरील भांडवली खर्च ०३ राज्यमार्ग ३३७ रस्त्याची कामे मागणी क्र. एच-७ (५०५४०३४९) </td><td>सा.बा.विभाग</td><td>सा.बां.उपविभाग, शिरुर</td><td>Shirur</td><td>श्री.ए. जे. बडे  9404192859</td><td>श्री.एच.आर.चोगुले 9823202916</td><td>मा. आ. श्री. बाबुराव पाचर्णे - विधान सभा आमदार</td><td>मा.  खा. श्री. शिवाजीराव आढळराव पाटील - लोकसभा खासदार</td><td>एस. एस.  कन्स्ट्रक्शन अहमदनगर   9822025940</td><td>मुख्य अभियंता, सा.बां.प्रादेशिक, विभाग ,पुणे पत्र क्र.82पुणे/ 2015 24.00 03/03/2015</td><td>कार्यकारी अभियंत,सा.बां. (पुर्व) विभाग,पुणे जा.क्र./प्रकल्प-1/ 2480/2015 23.99 13/04/2015</td><td>मोरी बांधणे , बी एम कारपेट </td><td>5059 22/07/2015</td><td>20.89</td><td>6</td><td>22/01/2016</td><td>होय</td><td>24.00</td><td>25.84</td><td>-1.84</td><td>0.00</td><td>0.00</td><td>25.84</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0</td><td>&nbsp;</td><td>&nbsp;</td><td>1</td><td>0</td><td>0</td><td>Completed काम पूर्ण </td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td>
+			</tr><tr style="background-color:Bisque;border:none;">
+				<td style="background-color:LightYellow;">4</td><td>Total</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td></td><td>&nbsp;</td><td></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>83.82</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>98.00</td><td>77.87</td><td>20.13</td><td>0.00</td><td>0.00</td><td>77.87</td><td>7.02</td><td>0.00</td><td>0.00</td><td>0.00</td><td>7.02</td><td>0.00</td><td>26.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>4</td><td>0</td><td>0</td><td>&nbsp;</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td>
+			</tr><tr style="page-break-after: always;">
+				<td style="background-color:LightYellow;">1</td><td>R_87</td><td>211</td><td>4539</td><td>1122/248</td><td>2013-2014</td><td>गणेशवाडी ते सराटी रस्ता 5.0 किमी ता.इंदापूर( July 2013 )</td><td>५०५४ मार्ग व पुल ०४ जिल्हा व इतर मार्ग ३३७ रस्त्यांची  व पुलांची कामे (बिगर अनुशेष) मागणी क्र.एच-७ ५०५४१०६</td><td>सा.बा.विभाग</td><td>सा.बां.उपविभाग, इंदापूर</td><td>Indapur</td><td>श्री.डी. आर.  धुमाळ 9892810491</td><td> श्री.एल. 			 बी.  जाधव   9552523152	</td><td>मा. आ. श्री. दत्तात्रय भरणे - विधान सभा आमदार</td><td>मा.  खा. श्रीमती. सुप्रिया सुळे - लोकसभा खासदार</td><td>में. सुशिल  पताळे  ॲन्ड असोसिएटस  0000000000</td><td>पिएलएन-2013/सिआर-(513)/2013 45.00 11/07/2013</td><td>अधीक्षक अभियंता/ क्र./पुर्व/7837/2013 42.02 30/09/2013</td><td>&nbsp;</td><td> 23/01/2014</td><td>4319.00</td><td>12</td><td>23/01/2015</td><td>होय</td><td>45.00</td><td>44.92</td><td>0.08</td><td>0.00</td><td>0.00</td><td>44.92</td><td>0.04</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.04</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0</td><td>&nbsp;</td><td>&nbsp;</td><td>1</td><td>0</td><td>0</td><td>Completed </td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td>
+			</tr><tr>
+				<td style="background-color:LightYellow;">2</td><td>R_80</td><td>211</td><td>4542</td><td>1125/248</td><td>2013-2014</td><td>व्याहाळी ते तनपूरेवस्ती रस्ता ग्रामा 105किमी 0/00 ते 4/500 ची सुधारणा करणे.( July 2013 )</td><td>५०५४ मार्ग व पुल ०४ जिल्हा व इतर मार्ग ३३७ रस्त्यांची  व पुलांची कामे (बिगर अनुशेष) मागणी क्र.एच-७ ५०५४१०६</td><td>सा.बा.विभाग</td><td>सा.बां.उपविभाग, इंदापूर</td><td>Indapur</td><td>श्री.डी. आर.  धुमाळ 9892810491</td><td> श्री.एल. 			 बी.  जाधव   9552523152	</td><td>मा. आ. श्री. दत्तात्रय भरणे - विधान सभा आमदार</td><td>मा.  खा. श्रीमती. सुप्रिया सुळे - लोकसभा खासदार</td><td>में.  जे. के. जगताप  9011176161</td><td>पिएलएन-2013/सिआर-(624)/2013 50.00 11/07/2013</td><td>अधीक्षक अभियंता/ क्र/पुर्व/7835 49.98 30/09/2013</td><td>&nbsp;</td><td> 23/01/2014</td><td>47.64</td><td>12</td><td>23/01/2015</td><td>होय</td><td>50.00</td><td>47.85</td><td>2.15</td><td>0.00</td><td>0.00</td><td>47.85</td><td>1.01</td><td>0.00</td><td>0.00</td><td>0.00</td><td>1.01</td><td>0.00</td><td>2.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0</td><td>&nbsp;</td><td>&nbsp;</td><td>1</td><td>0</td><td>0</td><td>Completed </td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td>
+			</tr><tr>
+				<td style="background-color:LightYellow;">3</td><td>R_254</td><td>212</td><td>4550</td><td>&nbsp;</td><td>2013-2014</td><td>वडगाव रासाई ते इमानगाव रस्ता किमी 1/00 ते 3/00 सुधारणा करणे.ग्रा.मा 30 ता.शिरूर जि.पुणे.( July 2013 )</td><td>५०५४ मार्ग व पुल ०४ जिल्हा व इतर मार्ग ३३७ रस्त्यांची  व पुलांची कामे (बिगर अनुशेष) मागणी क्र.एच-७ ५०५४१०६</td><td>सा.बा.विभाग</td><td>सा.बां.उपविभाग, शिरुर</td><td>Shirur</td><td>श्री. बी.      आय.    शेळके   9604720265</td><td>श्री.एच.आर.चोगुले 9823202916</td><td>मा. आ. श्री. बाबुराव पाचर्णे - विधान सभा आमदार</td><td>मा.  खा. श्री. शिवाजीराव आढळराव पाटील - लोकसभा खासदार</td><td>मे.एस.  एस. कन्स्ट्रक्शन 9923341466</td><td>पिएलएन-2013/सिआर-(648)/2013 50.00 11/07/2013</td><td>अअ/8728/2013 46.61 22/10/2013</td><td>&nbsp;</td><td> 23/01/2014</td><td>46.37</td><td>0</td><td>23/01/2014</td><td>होय</td><td>50.00</td><td>24.20</td><td>25.80</td><td>0.00</td><td>0.00</td><td>24.20</td><td>12.13</td><td>0.00</td><td>0.00</td><td>0.00</td><td>12.13</td><td>0.00</td><td>25.50</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0</td><td>&nbsp;</td><td>&nbsp;</td><td>1</td><td>0</td><td>0</td><td>Completed </td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td>
+			</tr><tr>
+				<td style="background-color:LightYellow;">4</td><td>O_152744</td><td>223</td><td>4860</td><td>1443/257</td><td>2015-2016</td><td>उरळगाव आरणगाव रस्ता प्रजिमा 40 ची सुधारणा करणे किमी 4/00 ते 6/00 ता. शिरुर जि. पुणे(नवीन काम 3/2015)</td><td>५०५४ मार्ग व पुल ०४ जिल्हा व इतर मार्ग ३३७ रस्त्यांची  व पुलांची कामे (बिगर अनुशेष) मागणी क्र.एच-७ ५०५४१०६</td><td>सा.बा.विभाग</td><td>सा.बां.उपविभाग, शिरुर</td><td>Shirur</td><td>श्री. बी.      आय.    शेळके   9604720265</td><td>श्री.एच.आर.चोगुले 9823202916</td><td>मा. आ. श्री. बाबुराव पाचर्णे - विधान सभा आमदार</td><td>मा.  खा. श्री. शिवाजीराव आढळराव पाटील - लोकसभा खासदार</td><td>चे. अमित  कन्स्ट्रक्शन,  दौंड 9011749696</td><td>मुख्य अभियंता, सा.बां.प्रादेशिक, विभाग ,पुणे पत्र क्र. का-2/ pune/नि/क्र173/2015 25.00 05/03/2015</td><td>कार्यकारी अभियंत,सा.बां. (पुर्व) विभाग,पुणे जा.क्र./प्रकल्प-1/ 6/2406/2015 24.91 09/04/2015</td><td>खडीकरण, बी एम कारपेट </td><td> 22/07/2015</td><td>21.05</td><td>6</td><td>22/01/2016</td><td>होय</td><td>25.00</td><td>26.10</td><td>-1.10</td><td>0.00</td><td>0.00</td><td>26.10</td><td>0.43</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.43</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0</td><td>&nbsp;</td><td>&nbsp;</td><td>1</td><td>0</td><td>0</td><td>Completed काम पूर्ण </td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td>
+			</tr><tr>
+				<td style="background-color:LightYellow;">5</td><td>R_49</td><td>&nbsp;</td><td>&nbsp;</td><td>20/533</td><td>2016-2017</td><td>चौधरवाडी करंजे  मुरूम रस्ता  प्रजिमा  68 किमी  14 /800  ते  14 / 970 मध्ये मोठ्या पुलाचे बांधकाम करणे  ता. बारामती , जि . पुणे.(नवीन काम  7 /2016 )</td><td>५०५४ मार्ग व पुल ०४ जिल्हा व इतर मार्ग ३३७ रस्त्यांची  व पुलांची कामे (बिगर अनुशेष) मागणी क्र.एच-७ ५०५४१०६</td><td>सा.बा.विभाग</td><td>सा.बां.उपविभाग, बारामती</td><td>Baramati</td><td>श्री.जे. 		 पी.  काकडे 9923694500</td><td>श्री.व्हि. एम. ओव्होळ 9822940392</td><td>मा. आ. श्री. अजित पवार - विधान सभा आमदार</td><td>मा.  खा. श्रीमती. सुप्रिया सुळे - लोकसभा खासदार</td><td>मे. टी आणि टी  इन्फ्रास्ट्रक्टचर   प्रा. लि . पुणे  9420495002</td><td>No.plan-2016/SE/CR134 20.00 20/06/2016</td><td> 0 </td><td>भूसंपादन करणे व संकीर्ण</td><td> 09/07/2016</td><td>0.00</td><td>18</td><td>09/01/2018</td><td>होय</td><td>20.00</td><td>0.00</td><td>20.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.10</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.10</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0</td><td>&nbsp;</td><td>&nbsp;</td><td>1</td><td>0</td><td>0</td><td>Completed </td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td>
+			</tr><tr style="background-color:Bisque;border:none;">
+				<td style="background-color:LightYellow;">5</td><td>Total</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td></td><td>&nbsp;</td><td></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>4434.06</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>190.00</td><td>143.07</td><td>46.93</td><td>0.00</td><td>0.00</td><td>143.07</td><td>13.71</td><td>0.00</td><td>0.00</td><td>0.00</td><td>13.71</td><td>0.00</td><td>27.50</td><td>0.00</td><td>0.00</td><td>0.00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>5</td><td>0</td><td>0</td><td>&nbsp;</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td>
+			</tr><tr style="background-color:LightYellow;">
+				<td>No Of Work = 9</td><td>Grand Total</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>4517.88</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>288.00</td><td>220.94</td><td>67.06</td><td>0.00</td><td>0.00</td><td>220.94</td><td>20.73</td><td>0.00</td><td>0.00</td><td>0.00</td><td>20.73</td><td>0.00</td><td>53.50</td><td>0.00</td><td>0.00</td><td>0.00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>9</td><td>0</td><td>0</td><td>&nbsp;</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td>
+			</tr>
+		</table>
+	</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <span id="ContentPlaceHolder1_lblCRF"><h2>CRF</h2></span>
+                        <div id="ContentPlaceHolder1_DivRootCRF" align="left" style="width: 100%">
+                            <div style="width: 100%">
+                                <div style="overflow: hidden; width: 100%" id="DivHeaderRowCRF">
+                                </div>
+                                <div style="overflow: scroll; width: 100%" onscroll="OnScrollDiv3(this)" id="DivMainContentCRF">
+                                    <div>
+		<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridCRF" style="font-size:16px;width:100%;border-collapse:collapse;border: 2px solid">
+			<tr style="color:Red;font-size:Medium;">
+				<td>
+                                            No Matching Record Found....!!!!!
+                                        </td>
+			</tr>
+		</table>
+	</div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <span id="ContentPlaceHolder1_lblNabard"><h2>Nabard</h2></span>
+                        <div id="ContentPlaceHolder1_DivRootNabard" align="left" style="width: 100%">
+                            <div style="width: 100%">
+                                <div style="overflow: hidden; width: 100%" id="DivHeaderRowNabard">
+                                </div>
+                                <div style="overflow: scroll; width: 100%" onscroll="OnScrollDiv4(this)" id="DivMainContentNabard">
+                                    <div>
+		<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridNabard" style="font-size:16px;width:100%;border-collapse:collapse;border: 2px solid">
+			<tr>
+				<th scope="col">SrNo</th><th scope="col">Work Id</th><th scope="col">RIDF NO</th><th scope="col">Budget of Year</th><th scope="col">District</th><th scope="col">Taluka</th><th scope="col">Budget of Item</th><th scope="col">Name of Work</th><th scope="col">Scope of Work</th><th scope="col">Headwise</th><th scope="col">Division</th><th scope="col">Sub Division</th><th scope="col">Sectional Engineer</th><th scope="col">Deputy Engineer</th><th scope="col">MLA</th><th scope="col">MP</th><th scope="col">Contractor</th><th scope="col">Administrative No</th><th scope="col">A A Date</th><th scope="col">PIC No</th><th scope="col">AA cost Rs in lakhs</th><th scope="col">Technical Sanction Cost Rs in Lakh</th><th scope="col">Technical Sanction No and Date</th><th scope="col">Tender No</th><th scope="col">Tender Amount</th><th scope="col">Work Order</th><th scope="col">Tender Date</th><th scope="col">Work Order Date</th><th scope="col">Work Completion Date</th><th scope="col">Extension Month</th><th scope="col">Estimated Cost Approved</th><th scope="col">Expenditure up to MAR 2017</th><th scope="col">Remaining Cost</th><th scope="col">Current Cost</th><th scope="col">Previous Cost</th><th scope="col">Expenditure up to 8/2016 during year 16-17 Rs in Lakhs</th><th scope="col">Total Expense</th><th scope="col">Budget Provision in 2017-18 Rs in Lakhs</th><th scope="col">Second Provision</th><th scope="col">Third Provision</th><th scope="col">Fourth Provision</th><th scope="col">Total Provision</th><th scope="col">Total Grand</th><th scope="col">Demand for 2017-18 Rs in Lakhs</th><th scope="col">Observation Memo</th><th scope="col">Probable date of completion</th><th scope="col">Bill Status</th><th scope="col">Physical Progress of work</th><th scope="col">Road Category</th><th scope="col">Road Length</th><th scope="col">Road Type</th><th scope="col">WBMI Km</th><th scope="col">WBMII Km</th><th scope="col">WBMIII Km</th><th scope="col">BBM Km</th><th scope="col">Carpet Km</th><th scope="col">Surface Km</th><th scope="col">CD_Works_No</th><th scope="col">PCR submitted or not</th><th scope="col">Remark</th><th scope="col">Apr</th><th scope="col">May</th><th scope="col">Jun</th><th scope="col">Jul</th><th scope="col">Aug</th><th scope="col">Sep</th><th scope="col">Oct</th><th scope="col">Nov</th><th scope="col">Dec</th><th scope="col">Jan</th><th scope="col">Feb</th><th scope="col">Mar</th>
+			</tr><tr>
+				<td style="background-color:LightYellow;">1</td><td>O_146210</td><td>XIX</td><td>2014-2015</td><td>Pune </td><td>Shirur</td><td>3</td><td>Improvements    to Fakte Chandoh To SH-117 Road MDR -23  Km 40/0 to 43/500 Tal. Shirur Dist. Pune.</td><td>&nbsp;</td><td>5054 मार्ग व पुल यावरील भांडवली खर्च 8 नाबार्ड कर्ज सहाय्यातून कार्यान्वीत केलेली कामे. मा.क्र.एच-7  ५०५४०७५२</td><td>सा.बा.विभाग</td><td>सा.बां.उपविभाग, शिरुर</td><td>श्री.एन. जे.  शेळके 9922193171</td><td>श्री.एच.आर.चोगुले 9823202916</td><td>मा. आ. श्री. बाबुराव पाचर्णे - विधान सभा आमदार</td><td>मा.  खा. श्री. शिवाजीराव आढळराव पाटील - लोकसभा खासदार</td><td>  </td><td>&nbsp;</td><td>&nbsp;</td><td>R192500263</td><td>161.64</td><td>150.73</td><td>3334 27/06/2014</td><td>CE/23</td><td>149.22</td><td>&nbsp;</td><td>16/01/2015</td><td>12</td><td>16/01/2016</td><td>0</td><td>161.64</td><td>137.65</td><td>23.99</td><td>0.00</td><td>0.00</td><td>0.00</td><td>137.65</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>&nbsp;</td><td>&nbsp;</td><td>0</td><td>Completed</td><td>MDR -23</td><td>Km 40/0 to 43/500 </td><td>Road</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>Submitted</td><td>work completed</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td>
+			</tr><tr style="background-color:Bisque;border:none;">
+				<td style="background-color:LightYellow;">1</td><td>Total</td><td>&nbsp;</td><td></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td></td><td>161.64</td><td>150.73</td><td>&nbsp;</td><td>&nbsp;</td><td>149.22</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>161.64</td><td>137.65</td><td>23.99</td><td>0.00</td><td>0.00</td><td>0.00</td><td>137.65</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>&nbsp;</td><td>&nbsp;</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td>
+			</tr><tr style="background-color:LightYellow;">
+				<td>No Of Work = 1</td><td>Grand Total</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>161.64</td><td>150.73</td><td>&nbsp;</td><td>&nbsp;</td><td>149.22</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>161.64</td><td>137.65</td><td>23.99</td><td>0.00</td><td>0.00</td><td>0.00</td><td>137.65</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>&nbsp;</td><td>&nbsp;</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><td>&nbsp;</td>
+			</tr>
+		</table>
+	</div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <span id="ContentPlaceHolder1_lblDPDC"></span>
+                        <div id="ContentPlaceHolder1_DivRootDPDC" align="left" style="width: 100%">
+                            <div style="width: 100%">
+                                <div style="overflow: hidden; width: 100%" id="DivHeaderRowDPDC">
+                                </div>
+                                <div style="overflow: scroll; width: 100%" onscroll="OnScrollDiv5(this)" id="DivMainContentDPDC">
+                                    <div>
+		<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridDPDC" style="font-size:16px;width:100%;border-collapse:collapse;border: 2px solid">
+			<tr style="color:Red;font-size:Medium;">
+				<td>
+                                            No Matching Record Found....!!!!!
+                                        </td>
+			</tr>
+		</table>
+	</div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <span id="ContentPlaceHolder1_lblMLA"></span>
+                        <div id="ContentPlaceHolder1_DivRootMLA" align="left" style="width: 100%">
+                            <div style="width: 100%">
+                                <div style="overflow: hidden; width: 100%" id="DivHeaderRowMLA">
+                                </div>
+                                <div style="overflow: scroll; width: 100%" onscroll="OnScrollDiv6(this)" id="DivMainContentMLA">
+                                    <div>
+		<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridMLA" style="font-size:16px;width:100%;border-collapse:collapse;border: 2px solid">
+			<tr style="color:Red;font-size:Medium;">
+				<td>
+                                            No Matching Record Found....!!!!!
+                                        </td>
+			</tr>
+		</table>
+	</div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <span id="ContentPlaceHolder1_lblMP"></span>
+                        <div id="ContentPlaceHolder1_DivRootMP" align="left" style="width: 100%">
+                            <div style="width: 100%">
+                                <div style="overflow: hidden; width: 100%" id="DivHeaderRowMP">
+                                </div>
+                                <div style="overflow: scroll; width: 100%" onscroll="OnScrollDiv7(this)" id="DivMainContentMP">
+                                    <div>
+		<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridMP" style="font-size:16px;width:100%;border-collapse:collapse;border: 2px solid">
+			<tr style="color:Red;font-size:Medium;">
+				<td>
+                                            No Matching Record Found....!!!!!
+                                        </td>
+			</tr>
+		</table>
+	</div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <span id="ContentPlaceHolder1_lblAnnuity"></span>
+                        <div id="ContentPlaceHolder1_DivRootAunty" align="left" style="width: 100%">
+                            <div style="width: 100%">
+                                <div style="overflow: hidden; width: 100%" id="DivHeaderRowAunty">
+                                </div>
+                                <div style="overflow: scroll; width: 100%" onscroll="OnScrollDiv8(this)" id="DivMainContentAunty">
+                                    <div>
+		<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridAunty" style="font-size:16px;width:100%;border-collapse:collapse;border: 2px solid">
+			<tr style="color:Red;font-size:Medium;">
+				<td>
+                                            No Matching Record Found....!!!!!
+                                        </td>
+			</tr>
+		</table>
+	</div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <span id="ContentPlaceHolder1_lblDepositFund"><h2>DepositFund</h2></span>
+                        
+                            <div id="ContentPlaceHolder1_DivRootDepositFund" align="left" style="width: 100%">
+                            <div style="width: 100%">
+                                <div style="overflow: hidden; width: 100%" id="DivHeaderRowDepositFund">
+                                </div>
+                                <div style="overflow: scroll; width: 100%" onscroll="OnScrollDiv1(this)"  id="DivMainContentDepositFund">
+                                    <div>
+		<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridDepositFund" style="font-size:16px;width:100%;border-collapse:collapse;border: 2px solid">
+			<tr style="color:Red;font-size:Medium;">
+				<td>
+                                            No Matching Record Found....!!!!!
+                                        </td>
+			</tr>
+		</table>
+	</div>
+                                </div>
+                            </div>
+                        </div>
+                     
+                        
+
+                         <span id="ContentPlaceHolder1_lblGATA"><h2>GAT A</h2></span>
+                        <div id="ContentPlaceHolder1_DivRootGatA" align="left" style="width: 100%">
+                            <div style="width: 100%">
+                                <div style="overflow: hidden; width: 100%" id="DivHeaderRowGatA">
+                                </div>
+                                <div style="overflow: scroll; width: 100%" onscroll="OnScrollDiv9(this)" id="DivMainContentGatA">
+                                    <div>
+		<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridGatA" style="font-size:16px;width:100%;border-collapse:collapse;border: 2px solid">
+			<tr style="color:Red;font-size:Medium;">
+				<td>
+                                            No Matching Record Found....!!!!!
+                                        </td>
+			</tr>
+		</table>
+	</div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <span id="ContentPlaceHolder1_lblGatD"><h2>GAT D</h2></span>
+                        <div id="ContentPlaceHolder1_DivRootGatD" align="left" style="width: 100%">
+                            <div style="width: 100%">
+                                <div style="overflow: hidden; width: 100%" id="DivHeaderRowGatD">
+                                </div>
+                                <div style="overflow: scroll; width: 100%" onscroll="OnScrollDiv10(this)" id="DivMainContentGatD">
+                                    <div>
+		<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridGatD" style="font-size:16px;width:100%;border-collapse:collapse;border: 2px solid">
+			<tr style="color:Red;font-size:Medium;">
+				<td>
+                                            No Matching Record Found....!!!!!
+                                        </td>
+			</tr>
+		</table>
+	</div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <span id="ContentPlaceHolder1_lblGatF"></span>
+                        <div id="ContentPlaceHolder1_DivRootGatF" align="left" style="width: 100%">
+                            <div style="width: 100%">
+                                <div style="overflow: hidden; width: 100%" id="DivHeaderRowGatF">
+                                </div>
+                                <div style="overflow: scroll; width: 100%" onscroll="OnScrollDiv11(this)" id="DivMainContentGatF">
+                                    <div>
+		<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridGatF" style="font-size:16px;width:100%;border-collapse:collapse;border: 2px solid">
+			<tr style="color:Red;font-size:Medium;">
+				<td>
+                                            No Matching Record Found....!!!!!
+                                        </td>
+			</tr>
+		</table>
+	</div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <span id="ContentPlaceHolder1_lblGatB"></span>
+                        <div id="ContentPlaceHolder1_DivRootGatB" align="left" style="width: 100%">
+                            <div style="width: 100%">
+                                <div style="overflow: hidden; width: 100%" id="DivHeaderRowGatB">
+                                </div>
+                                <div style="overflow: scroll; width: 100%" onscroll="OnScrollDiv12(this)" id="DivMainContentGatB">
+                                    <div>
+		<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridGatB" style="font-size:16px;width:100%;border-collapse:collapse;border: 2px solid">
+			<tr style="color:Red;font-size:Medium;">
+				<td>
+                                            No Matching Record Found....!!!!!
+                                        </td>
+			</tr>
+		</table>
+	</div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <span id="ContentPlaceHolder1_lblGatC"></span>
+                        <div id="ContentPlaceHolder1_DivRootGatC" align="left" style="width: 100%">
+                            <div style="width: 100%">
+                                <div style="overflow: hidden; width: 100%" id="DivHeaderRowGatC">
+                                </div>
+                                <div style="overflow: scroll; width: 100%" onscroll="OnScrollDiv13(this)" id="DivMainContentGatC">
+                                    <div>
+		<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridGatC" style="font-size:16px;width:100%;border-collapse:collapse;border: 2px solid">
+			<tr style="color:Red;font-size:Medium;">
+				<td>
+                                            No Matching Record Found....!!!!!
+                                        </td>
+			</tr>
+		</table>
+	</div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <span id="ContentPlaceHolder1_lblResBuilding"></span>
+                        <div id="ContentPlaceHolder1_DivRootResidentialBuilding" align="left" style="width: 100%">
+                            <div style="width: 100%">
+                                <div style="overflow: hidden; width: 100%" id="DivHeaderRowResidentialBuilding">
+                                </div>
+                                <div style="overflow: scroll; width: 100%" onscroll="OnScrollDiv14(this)" id="DivMainContentResidentialBuilding">
+                                    <div>
+		<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridResidentialBuilding" style="font-size:16px;width:100%;border-collapse:collapse;border: 2px solid">
+			<tr style="color:Red;font-size:Medium;">
+				<td>
+                                            No Matching Record Found....!!!!!
+                                        </td>
+			</tr>
+		</table>
+	</div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <span id="ContentPlaceHolder1_lblNonResBuilding"></span>
+                        <div id="ContentPlaceHolder1_DivRootNonResidentialbuilding" align="left" style="width: 100%">
+                            <div style="width: 100%">
+                                <div style="overflow: hidden; width: 100%" id="DivHeaderRowNonResidentialbuilding">
+                                </div>
+                                <div style="overflow: scroll; width: 100%" onscroll="OnScrollDiv15(this)" id="DivMainContentNonResidentialbuilding">
+                                    <div>
+		<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_GridNonResidentialbuilding" style="font-size:16px;width:100%;border-collapse:collapse;border: 2px solid">
+			<tr style="color:Red;font-size:Medium;">
+				<td>
+                                            No Matching Record Found....!!!!!
+                                        </td>
+			</tr>
+		</table>
+	</div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <span id="ContentPlaceHolder1_lbl2515"></span>
+                        <div id="ContentPlaceHolder1_DivRoot2515" align="left" style="width: 100%">
+                            <div style="width: 100%">
+                                <div style="overflow: hidden; width: 100%" id="DivHeaderRow2515">
+                                </div>
+                                <div style="overflow: scroll; width: 100%" onscroll="OnScrollDiv16(this)" id="DivMainContent2515">
+                                    <div>
+		<table cellspacing="0" rules="all" border="1" id="ContentPlaceHolder1_Grid2515" style="font-size:16px;width:100%;border-collapse:collapse;border: 2px solid">
+			<tr style="color:Red;font-size:Medium;">
+				<td>
+                                            No Matching Record Found....!!!!!
+                                        </td>
+			</tr>
+		</table>
+	</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                
+</div>
